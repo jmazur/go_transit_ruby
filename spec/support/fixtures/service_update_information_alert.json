@@ -1,0 +1,329 @@
+{
+  "Metadata": {
+    "TimeStamp": "2023-03-06 23:23:38",
+    "ErrorCode": "200",
+    "ErrorMessage": "OK"
+  },
+  "Messages": {
+    "Message": [
+      {
+        "Code": "M0000297211",
+        "ParentCode": "M0000297210",
+        "Status": "UPD",
+        "PostedDateTime": "2021-04-16 11:57:01",
+        "SubjectEnglish": "North and south parking lot impacts",
+        "SubjectFrench": "Répercussions sur les parcs de stationnement nord et sud",
+        "BodyEnglish": "There are currently significant changes to station parking due to construction related to the Hurontario LRT. This construction will continue into 2024. For more information on changes at your station, please visit the Port Credit GO construction page.",
+        "BodyFrench": "Il y a actuellement des changements importants au parc de stationnement des gares en raison des travaux de construction liés au TLR de Hurontario. Ces travaux se poursuivront jusqu’en 2024. Pour en savoir plus sur les changements effectués dans votre gare, veuillez consulter la page relative aux travaux de construction en cours à la gare GO de Port Credit.",
+        "Category": "General Information",
+        "SubCategory": "Station General Information",
+        "Lines": [
+          {
+            "Code": "LW"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "PO"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000343134",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2022-06-03 06:00:33",
+        "SubjectEnglish": "Use caution on the north and south platforms at Eglinton GO station",
+        "SubjectFrench": "Faites preuve de prudence sur les quais nord et sud à la gare GO d’Eglinton",
+        "BodyEnglish": "Please be extra cautious when you are on the station platforms, as both platforms have been temporarily reduced in width for ongoing construction. Please follow the posted warning signs and only stand in the wider sections of the platform until your train has arrived and stopped. Please stay clear of the yellow lines. This station remains unable to service customers who use wheelchairs and mobility scooters. Thank you for your patience as we work to improve your station and make it more accessible in the future.",
+        "BodyFrench": "Veuillez faire preuve d’une grande prudence lorsque vous vous trouvez sur les quais de la gare, puisque la largeur des deux quais a été temporairement réduite en raison des travaux en cours. Veuillez respecter les panneaux d’avertissement et vous tenir seulement sur les parties plus larges du quai jusqu’à l’arrivée et l’arrêt de votre train. Veuillez demeurer derrière la ligne jaune. Cette gare n’est toujours pas accessible aux clients qui utilisent un fauteuil roulant ou un scooter électrique. Nous vous remercions de votre patience pendant que nous améliorons votre gare pour la rendre plus accessible à l’avenir.",
+        "Category": "General Information",
+        "SubCategory": "Station General Information",
+        "Lines": [
+          {
+            "Code": "LE"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "EG"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000361072",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2022-10-07 18:15:57",
+        "SubjectEnglish": "No GO train service at St. Catharines station until spring 2023 due to track work",
+        "SubjectFrench": "Aucun service de train GO à la gare de St. Catharines jusqu'au printemps 2023 en raison de travaux sur la voie ferrée",
+        "BodyEnglish": "From Tuesday, October 11 to Spring 2023, there will be no GO train service at St. Catharines GO train station. This is due to track work needed for the local Welland Canal bridge rehabilitation project.Please consider GO Bus routes 12 and 18K as alternatives. For more information, check out the schedule and route information.",
+        "BodyFrench": "Du mardi 11 octobre au printemps 2023, il n'y aura pas de service de train GO à la gare GO de St. Catharines en raison de travaux sur les voies nécessaires au projet local de réhabilitation du pont du canal Welland.Veuillez utiliser les trajets d'autobus 12 et 18K comme alternative. Pour plus d'informations, consultez l'horaire et les informations sur les itinéraires.",
+        "Category": "General Information",
+        "SubCategory": "Station General Information",
+        "Lines": [
+          {
+            "Code": "LW"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "SCTH"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000363137",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2022-12-02 09:13:08",
+        "SubjectEnglish": "Station elevators are out of service while we make important upgrades. ",
+        "SubjectFrench": "Les ascenseurs de la gare ont été mis hors service pour que nous puissions effectuer d’importants travaux de modernisation. ",
+        "BodyEnglish": "Beginning December 4, Dignity Transportation Shuttle service will be available by request to transport customers with accessibility needs. Requests must be made 48 hours in advance of the time of travel. To request shuttle service, call GO Transit at 416-869-3200 or 1-888-438-6646 (toll-free). Learn more here.",
+        "BodyFrench": "À compter du 4 décembre, le service de navette Dignity Transportation sera disponible sur demande pour transporter les clients ayant des besoins en matière d’accessibilité. Les demandes doivent être faites 48 heures avant l’heure du déplacement. Pour demander un service de navette, appelez GO Transit au 416-869-3200 ou au 1-888-438-6646 (sans frais). En savoir plus ici.",
+        "Category": "General Information",
+        "SubCategory": "Station General Information",
+        "Lines": [
+          {
+            "Code": "LW"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "EX"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000374074",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2023-02-10 00:27:31",
+        "SubjectEnglish": "Drainage pipe replacement begins Sunday, February 12",
+        "SubjectFrench": "Début du remplacement des tuyaux de drainage le dimanche 12 février",
+        "BodyEnglish": "Starting in the evening of Sunday, February 12, contractors will be installing scaffolding above Platforms 5 and 10 (near York Street) in preparation to replace drainage pipes on the atrium roof. The work will take place from 8 p.m. to 6 a.m. over the next month, and it will not impact how you access the station. Please use caution around fenced off construction areas. Thank you for your patience as we work to improve your station.",
+        "BodyFrench": "À compter du soir du dimanche 12 février, les entreprenants installeront des échafaudages au-dessus des quais 5 et 10 (près de la rue York) en vue du remplacement des canalisations de drainage sur le toit de l’atrium. Ces travaux auront lieu de 20 h à 6 h au cours du prochain mois et ne toucheront pas votre façon d’accéder à la gare. Veuillez faire preuve de prudence autour des chantiers clôturés. Nous vous remercions de votre patience pendant que nous améliorons votre gare.",
+        "Category": "General Information",
+        "SubCategory": "Station General Information",
+        "Lines": [
+          {
+            "Code": "LW"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "UN"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000374382",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2023-02-13 18:45:28",
+        "SubjectEnglish": "Tunnel restrictions start Monday, February 27",
+        "SubjectFrench": "Les restrictions de tunnel commencent le lundi 27 février",
+        "BodyEnglish": "We will be upgrading the lighting in the tunnels at your station from February 27 to March 8. Work will start in the west tunnel, which will be partially closed starting February 27 at 11 p.m. until 5 a.m. daily. Please follow directional signs to the open pathway to access the platforms and trains. The east tunnel and pedestrian bridge are still available for you to use. We will notify you once the work moves to the east tunnel. Thank you for your patience as we make improvements to your station.",
+        "BodyFrench": "Nous moderniserons l'éclairage des tunnels de votre gare du 27 février au 8 mars. Les travaux débuteront dans le tunnel ouest qui sera partiellement fermé à partir du 27 février à 23 h.  jusqu'à 5h du matin tous les jours.  Veuillez suivre les panneaux directionnels vers la voie ouverte pour accéder aux quais et aux trains.  Le tunnel est et le pont piétonnier sont toujours à votre disposition.  Nous vous aviserons dès que les travaux se déplaceront vers le tunnel est.  Merci de votre patience pendant que nous apportons des améliorations à votre station.",
+        "Category": "General Information",
+        "SubCategory": "Station General Information",
+        "Lines": [
+          {
+            "Code": "LE"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "PIN"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000374644",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2023-02-15 19:44:08",
+        "SubjectEnglish": "Inner portion of bus loop will temporarily close on Feb 21",
+        "SubjectFrench": "Partie intérieure de la ceinture de trafic pour autobus sera temporairement fermée à compter du 21 février",
+        "BodyEnglish": "On Tuesday, February 21, we will start a three-phase project at East Gwillimbury GO to upgrade and repave the bus loop. All buses currently serving East Gwillimbury GO will continue to stop here. The project is expected to be completed this spring. · During this time, the inner portion of the bus loop will be closed and all buses will stop and depart from the outer portion of the bus loop.· Phase 1: Bus platforms are as follows:o Southbound 66 Platform 2 o Southbound 65, 68 Platform 3o Northbound 68 Platform 4o York Region Transit Platforms 5 and 6· Please use the designated crossing area when making your way to your bus stop.· Please be mindful of construction areas and moving vehicles. · Please follow directional signs. Thank you for your patience while we upgrade your station.",
+        "BodyFrench": "Le mardi 21 février, nous commencerons un projet à trois étapes à la gare GO d’East Gwillimbury afin d’améliorer et de repaver la ceinture de trafic pour autobus. Tous les autobus qui desservent actuellement la gare GO d’East Gwillimbury s’arrêteront toujours à cet endroit. Le projet devrait être achevé ce printemps. Voici ce que vous devez savoir : · Pendant cette période, la partie intérieure de la ceinture de trafic pour autobus sera fermée et tous les autobus s’arrêteront à la partie extérieure de la ceinture de trafic pour autobus et en partiront. · Phase 1 : Les trajets d'autobus sont affectés aux quais d’autobus comme suit :o Trajet 66 en direction du sud : Quai 2o Trajets 65 et 68 en direction du sud : Quai 3o Trajet 68 en direction du nord : Quai 4o York Region Transit : Quais 5 et 6· Veuillez utiliser le passage dans la zone désignée lorsque vous vous rendez à votre arrêt d'autobus.· Soyez attentifs aux chantiers et aux véhicules en mouvement. · Veuillez suivre les panneaux d’orientation. Nous vous remercions de votre patience pendant que nous améliorons votre gare.",
+        "Category": "General Information",
+        "SubCategory": "Station General Information",
+        "Lines": [
+          {
+            "Code": "65"
+          },
+          {
+            "Code": "66"
+          },
+          {
+            "Code": "68"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "EA"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000374905",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2023-02-17 22:42:56",
+        "SubjectEnglish": "Parking restrictions begin Monday, March 13",
+        "SubjectFrench": "Les restrictions de stationnement commencent le lundi 13 mars",
+        "BodyEnglish": "The Ministry of Transportation currently has a construction project along Highway 401 eastbound between Avenue Road and Warden Avenue, which is scheduled for completion Winter 2025.Part of this project includes the reconstruction of 3 bridges at the Highway 401 and Leslie Street Interchange including the GO/Metrolinx overhead structure.Work at this structure will be commencing March 13, 2023 and will result in impacts to available parking spaces and revised signage in order to be able to safely complete the necessary work.",
+        "BodyFrench": "Le ministère des Transports entreprend actuellement un projet de construction qui aura lieu le long de l’autoroute 401 en direction de l’est, entre le chemin Avenue et l'avenue Warden. Il devrait s’achever d’ici l’hiver 2025.Ce projet comprend la reconstruction de trois ponts situés à l’échangeur à l’intersection de l’autoroute 401 et de la rue Leslie, y compris la structure supérieure de GO/Metrolinx.Les travaux sur le site de cette structure débuteront le 13 mars 2023 et entraîneront la réduction du nombre de places de stationnement disponibles et l’installation d’une signalisation révisée afin de pouvoir réaliser les travaux nécessaires en toute sécurité.",
+        "Category": "General Information",
+        "SubCategory": "Station General Information",
+        "Lines": [
+          {
+            "Code": "RH"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "OR"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000376277",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2023-03-02 10:21:01",
+        "SubjectEnglish": "Door restrictions on 12 coach trains",
+        "SubjectFrench": "Restrictions relatives aux portes pour les trains à 12 voitures",
+        "BodyEnglish": "Door restrictions continue to be in place for 12 coach trains. Here’s what you need to know: · Trains that are 12 coaches long will only open doors at the accessible platform (mini-ramp) and east of the accessible platform.· Trains with 6, 8, and 10 coaches will open all doors.· When boarding at Guelph Central GO: · The platform screens will display the number of coaches for the approaching train. · Please listen to station announcements. · Visit Guelph Central GO for more info and helpful graphics. · When boarding at another station and exiting the train at Guelph Central GO: · Board coaches that are east of the accessibility (mini-ramp). · Please listen to onboard train announcements, advising which coaches will open at Guelph Central GO. · Visit Guelph Central GO for more info and helpful graphics.",
+        "BodyFrench": "Les restrictions relatives aux portes sont toujours en vigueur pour les trains à 12 voitures. Voici ce que vous devez savoir : · Les portes des trains composés de 12 voitures ne s’ouvriront qu’au quai accessible (mini-rampe) et à l’est du quai accessible. · Toutes les portes des trains composés de 6, de 8 ou de 10 voitures s’ouvriront.· Au moment de l’embarquement à la gare GO de Guelph Central : · Les écrans sur les quais afficheront le nombre de voitures du train à l’approche. · Veuillez écouter les annonces dans la gare. · Consultez la page de la gare GO de Guelph Central pour obtenir plus d’informations et voir des plans utiles. · Lorsque vous embarquez dans le train à une autre gare et en descendez à la gare GO de Guelph Central : · Embarquez dans les voitures situées à l’est de la (mini-rampe) d’accessibilité. · Veuillez prêter attention aux annonces dans le train qui indiqueront les voitures dont les portes s’ouvriront à la gare GO de Guelph Central. · Consultez la page de la gare GO de Guelph Central pour obtenir plus d’informations et voir des plans utiles.",
+        "Category": "General Information",
+        "SubCategory": "Station General Information",
+        "Lines": [
+          {
+            "Code": "GT"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "GL"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000376347",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2023-03-05 08:39:57",
+        "SubjectEnglish": "Construction work to replace bus shelters starts March 5",
+        "SubjectFrench": "Des travaux de remplacement des abribus débuteront le 5 mars",
+        "BodyEnglish": "On March 5 we will be starting work to replace the shelters in the bus loop. The new bus shelters, once in place later this year, will be fully accessible and will include CCTV cameras, lighting, heating and USB charging stations. The work will be done in stages. Here’s what you need to know: • Starting March 5, the west station entrance, near the bus loop, will be closed and a portion of the bus loop platform will be fenced off. Please use the entrance on the north side of the station building, just off the parking lot.• The bus shelter by platforms 7 and 8 will be the first shelter to close for demolition and preparatory work for the new shelters.• There are no changes to bus services.• Please follow directional signs and be cautious around construction areas.We will provide you updates as this work progresses. Thank you for your patience as we work to upgrade your station.",
+        "BodyFrench": "Le 5 mars, nous commencerons à remplacer les abribus dans la ceinture de trafic pour autobus. Une fois installés, les nouveaux abribus seront entièrement accessibles et comprendront des caméras de surveillance en circuit fermé, de l’éclairage, du chauffage et des bornes de recharge USB. Les travaux seront réalisés en étapes. Voici ce que vous devez savoir :· À compter du 5 mars, l'entrée ouest de la gare, près de la ceinture de trafic pour autobus, sera fermée, et une partie du quai de la ceinture de trafic pour autobus sera clôturée. Veuillez utiliser l’entrée du côté nord du bâtiment de la gare, tout près du stationnement. · L’abribus près des quais 7 et 8 sera fermé en premier pour que nous puissions le démolir et effectuer des travaux préparatoires en vue de l’installation des nouveaux abribus.· Aucune modification n’est apportée aux services d’autobus.· Veuillez suivre la signalisation d’orientation et faire preuve de prudence près des chantiers. Nous vous tiendrons au courant de l'évolution de ces travaux. Nous vous remercions de votre patience pendant que nous améliorons votre gare",
+        "Category": "General Information",
+        "SubCategory": "Station General Information",
+        "Lines": [
+          {
+            "Code": "LW"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "AL"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000376348",
+        "ParentCode": "M0000376344",
+        "Status": "UPD",
+        "PostedDateTime": "2023-03-02 22:08:08",
+        "SubjectEnglish": "Starting on March 6 the Railpath closure will be temporarily extended",
+        "SubjectFrench": "À compter du 6 mars, la fermeture du sentier Railpath sera prolongée",
+        "BodyEnglish": "Starting as soon as Monday, March 6, the current West Toronto Railpath closure will be extended to include the section between Bloor Street West and Dundas Street West, for approximately two weeks. A detour path will be in place. We need additional space to move three sculptures to their permanent location along the south end of the Railpath. The Railpath remains closed from Ernest Avenue to south of the Bloor Street West pedestrian bridge until early next year. For more information about construction and the new detour, click here.",
+        "BodyFrench": "À compter du lundi 6 mars, la fermeture actuelle du sentier Railpath de Toronto-Ouest sera prolongée et inclura la section entre la rue Bloor Ouest et la rue Dundas Ouest pendant environ deux semaines. Une route de contournement sera mise en place. Nous avons besoin d’espace supplémentaire pour déplacer trois sculptures vers leur emplacement permanent le long de l’extrémité sud du sentier Railpath. Le sentier Railpath demeurera fermé à partir de l’avenue Ernest jusqu’au sud du pont piétonnier de la rue Bloor Ouest jusqu’au début de l’année prochaine. Pour en savoir plus sur les travaux et sur le nouveau contournement, cliquez ici.",
+        "Category": "General Information",
+        "SubCategory": "Station General Information",
+        "Lines": [
+          {
+            "Code": "GT"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "BL"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000376349",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2023-03-02 22:09:47",
+        "SubjectEnglish": "Drain repair work in the parking structure",
+        "SubjectFrench": "",
+        "BodyEnglish": "On Monday, March 6, we will be starting drain repair work in the Aurora GO parking structure. Please be cautious around work areas and follow directional signs. Thank you for your patience as we make improvements to your station. Learn more here.",
+        "BodyFrench": "Le lundi 6 mars, les travaux de réparation des canalisations débuteront dans la structure de stationnement de la gare GO d’Aurora. Veuillez faire preuve de prudence autour des chantiers et respecter les panneaux d’orientation. Nous vous remercions de votre patience pendant que nous améliorons votre gare. En savoir plus ici.",
+        "Category": "General Information",
+        "SubCategory": "Station General Information",
+        "Lines": [
+          {
+            "Code": "BR"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "AU"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000376786",
+        "ParentCode": "M0000375565",
+        "Status": "UPD",
+        "PostedDateTime": "2023-03-06 09:57:08",
+        "SubjectEnglish": "Pedestrian tunnel closures at Unionville GO station",
+        "SubjectFrench": "",
+        "BodyEnglish": "We will be doing some final work on the north pedestrian tunnels. Here’s what you need to know: North pedestrian tunnel: - Will be closed from March 6 to March 10. - Please use the south tunnel to access the platform. The schedule may be adjusted due to weather conditions or unforeseen circumstances. Thank you for your patience as we make improvements to your station.",
+        "BodyFrench": null,
+        "Category": "General Information",
+        "SubCategory": "Station General Information",
+        "Lines": [
+          {
+            "Code": "ST"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "UI"
+          }
+        ],
+        "Trips": []
+      }
+    ]
+  }
+}

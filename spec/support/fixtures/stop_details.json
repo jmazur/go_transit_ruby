@@ -1,0 +1,161 @@
+{
+  "Metadata": {
+    "TimeStamp": "2023-03-05 01:24:05",
+    "ErrorCode": "200",
+    "ErrorMessage": "OK"
+  },
+  "Stop": {
+    "ZoneCode": "12",
+    "StreetNumber": "1110 ",
+    "Intersection": "Southdown Road and Royal Windsor Drive ",
+    "City": "Mississauga",
+    "StreetName": "Southdown Road",
+    "Code": "CL",
+    "StopName": "Clarkson GO",
+    "StopNameFr": "",
+    "IsBus": true,
+    "IsTrain": true,
+    "Longitude": "-79.633206",
+    "Latitude": "43.513127",
+    "DrivingDirections": "Exit QEW @ Southdown Rd.; south to the station.",
+    "DrivingDirectionsFr": null,
+    "BoardingInfo": "Bus Platforms: \nPlatform 5 EB: (18-B, H)\nPlatform 5 WB: (18C)",
+    "BoardingInfoFr": null,
+    "TicketSales": "Monday – Friday 06:00-20:45 \nSaturday & Sunday 06:30-20:45 Holidays 06:30-20:45\n",
+    "TicketSalesFr": "Lundi - Vendredi\n06:00-20:45 \nSamedi & Dimanche 06:30-20:45 Jours fériés 06:30-20:45",
+    "Facilities": [
+      {
+        "Code": "BR",
+        "Description": "Bicycle Rack",
+        "DescriptionFr": "Support à bicyclettes"
+      },
+      {
+        "Code": "EV",
+        "Description": "Elevators",
+        "DescriptionFr": "Ascenseurs"
+      },
+      {
+        "Code": "KR",
+        "Description": "Kiss & Ride Passenger Drop Off",
+        "DescriptionFr": "Aire de dépose-minute"
+      },
+      {
+        "Code": "PP",
+        "Description": "Pay Phones",
+        "DescriptionFr": "Téléphones public"
+      },
+      {
+        "Code": "PW",
+        "Description": "Public Washroom",
+        "DescriptionFr": "Toilettes publiques"
+      },
+      {
+        "Code": "RP",
+        "Description": "Reserved parking",
+        "DescriptionFr": "Stationnement Réservé"
+      },
+      {
+        "Code": "TVM",
+        "Description": "Ticket Vending Machine (Cash/ Debit/ Credit) ",
+        "DescriptionFr": "Distributeurs de billets"
+      },
+      {
+        "Code": "FBS",
+        "Description": "Food and Beverage Sales",
+        "DescriptionFr": "Vente de nourriture et de boissons"
+      },
+      {
+        "Code": "WR",
+        "Description": "Waiting Room",
+        "DescriptionFr": "Salle d’attente"
+      },
+      {
+        "Code": "WAB",
+        "Description": "Wheelchair Accessible Bus Service",
+        "DescriptionFr": "Service d’autobus accessible en fauteuil roulant"
+      },
+      {
+        "Code": "WAT",
+        "Description": "Wheelchair Accessible Train Service",
+        "DescriptionFr": "Service de train accessible en fauteuil roulant"
+      },
+      {
+        "Code": "CRPL",
+        "Description": "Carpool",
+        "DescriptionFr": "Covoiturage"
+      },
+      {
+        "Code": "SHTR",
+        "Description": "Shelters",
+        "DescriptionFr": "Abris"
+      },
+      {
+        "Code": "WIFI",
+        "Description": "Wi-Fi",
+        "DescriptionFr": "Wi-Fi"
+      },
+      {
+        "Code": "TVMP",
+        "Description": "PRESTO Enabled TVM (Cash/Debit/Credit) ",
+        "DescriptionFr": "Distributeurs de billets acceptant PRESTO"
+      },
+      {
+        "Code": "HSTR",
+        "Description": "Heated Shelters",
+        "DescriptionFr": "Abris chauffés"
+      },
+      {
+        "Code": "PCX",
+        "Description": "PC Express",
+        "DescriptionFr": "PC Express"
+      },
+      {
+        "Code": "ZP",
+        "Description": "Zip Car",
+        "DescriptionFr": "Zip Car"
+      }
+    ],
+    "Parkings": [
+      {
+        "Name": "North Lot",
+        "NameFr": "",
+        "ParkSpots": 627,
+        "Type": "North Lot"
+      },
+      {
+        "Name": "Parking Garage ",
+        "NameFr": "",
+        "ParkSpots": 1573,
+        "Type": "Parking Garage"
+      },
+      {
+        "Name": "Main Lot ",
+        "NameFr": "",
+        "ParkSpots": 1274,
+        "Type": "Main Lot"
+      },
+      {
+        "Name": "Zip Car",
+        "NameFr": "",
+        "ParkSpots": 1,
+        "Type": "Zip Car "
+      }
+    ],
+    "Place": {
+      "Code": "clarkS",
+      "Name": "Clarkson GO",
+      "Longitude": "-79.6345850",
+      "Latitude": "43.5119550",
+      "Radius": "0",
+      "Stops": {
+        "Stop": [
+          {
+            "Code": "00181",
+            "Name": "Clarkson GO",
+            "NameFr": ""
+          }
+        ]
+      }
+    }
+  }
+}

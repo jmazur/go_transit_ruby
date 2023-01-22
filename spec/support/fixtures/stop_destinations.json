@@ -1,0 +1,43 @@
+{
+    "Metadata": {
+      "TimeStamp": "2023-03-05 01:58:16",
+      "ErrorCode": "200",
+      "ErrorMessage": "OK"
+    },
+    "Stop": {
+      "Code": "CL",
+      "Name": "Clarkson GO",
+      "Line": [
+        {
+          "Code": "LW",
+          "Display": "LW - Union Station",
+          "Direction": "E",
+          "DestinationStop": "UN"
+        },
+        {
+          "Code": "LW",
+          "Display": "LW - Union Station",
+          "Direction": "E",
+          "DestinationStop": "UN"
+        },
+        {
+          "Code": "LW",
+          "Display": "LW - West Harbour GO",
+          "Direction": "W",
+          "DestinationStop": "WR"
+        },
+        {
+          "Code": "LW",
+          "Display": "LW - West Harbour GO",
+          "Direction": "W",
+          "DestinationStop": "WR"
+        },
+        {
+          "Code": "LW",
+          "Display": "LW - West Harbour GO",
+          "Direction": "W",
+          "DestinationStop": "WR"
+        }
+      ]
+    }
+  }
