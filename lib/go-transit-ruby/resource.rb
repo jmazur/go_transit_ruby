@@ -1,0 +1,3 @@
+module GoTransit::Resource
+
+end

@@ -1,0 +1,303 @@
+{
+  "Metadata": {
+    "TimeStamp": "2023-01-17 23:28:51",
+    "ErrorCode": "200",
+    "ErrorMessage": "OK"
+  },
+  "AllDepartures": {
+    "Trip": [
+      {
+        "Info": "Wait / Attendez - Train",
+        "TripNumber": "1739",
+        "Platform": "-",
+        "Service": "Lakeshore West",
+        "ServiceType": "T",
+        "Time": "2023-01-17 23:45:00",
+        "Stops": [
+          {
+            "Name": "Exhibition",
+            "Code": null
+          },
+          {
+            "Name": "Mimico",
+            "Code": null
+          },
+          {
+            "Name": "Long Branch",
+            "Code": null
+          },
+          {
+            "Name": "Port Credit",
+            "Code": null
+          },
+          {
+            "Name": "Clarkson",
+            "Code": null
+          },
+          {
+            "Name": "Oakville",
+            "Code": null
+          },
+          {
+            "Name": "Bronte",
+            "Code": null
+          },
+          {
+            "Name": "Appleby",
+            "Code": null
+          },
+          {
+            "Name": "Burlington",
+            "Code": null
+          },
+          {
+            "Name": "Aldershot",
+            "Code": null
+          },
+          {
+            "Name": "West Harbour",
+            "Code": null
+          }
+        ]
+      },
+      {
+        "Info": "Wait / Attendez - Train",
+        "TripNumber": "1741",
+        "Platform": "-",
+        "Service": "Lakeshore West",
+        "ServiceType": "T",
+        "Time": "2023-01-18 00:45:00",
+        "Stops": [
+          {
+            "Name": "Exhibition",
+            "Code": null
+          },
+          {
+            "Name": "Mimico",
+            "Code": null
+          },
+          {
+            "Name": "Long Branch",
+            "Code": null
+          },
+          {
+            "Name": "Port Credit",
+            "Code": null
+          },
+          {
+            "Name": "Clarkson",
+            "Code": null
+          },
+          {
+            "Name": "Oakville",
+            "Code": null
+          },
+          {
+            "Name": "Bronte",
+            "Code": null
+          },
+          {
+            "Name": "Appleby",
+            "Code": null
+          },
+          {
+            "Name": "Burlington",
+            "Code": null
+          },
+          {
+            "Name": "Aldershot",
+            "Code": null
+          },
+          {
+            "Name": "West Harbour",
+            "Code": null
+          }
+        ]
+      },
+      {
+        "Info": "Wait / Attendez - Train",
+        "TripNumber": "7640",
+        "Platform": "-",
+        "Service": "Stouffville",
+        "ServiceType": "T",
+        "Time": "2023-01-18 00:13:00",
+        "Stops": [
+          {
+            "Name": "Kennedy",
+            "Code": null
+          },
+          {
+            "Name": "Agincourt",
+            "Code": null
+          },
+          {
+            "Name": "Milliken",
+            "Code": null
+          },
+          {
+            "Name": "Unionville",
+            "Code": null
+          },
+          {
+            "Name": "Centennial",
+            "Code": null
+          },
+          {
+            "Name": "Markham",
+            "Code": null
+          },
+          {
+            "Name": "Mount Joy",
+            "Code": null
+          },
+          {
+            "Name": "Stouffville",
+            "Code": null
+          },
+          {
+            "Name": "Old Elm",
+            "Code": null
+          }
+        ]
+      },
+      {
+        "Info": "Wait / Attendez - Train",
+        "TripNumber": "9040",
+        "Platform": "-",
+        "Service": "Lakeshore East",
+        "ServiceType": "T",
+        "Time": "2023-01-18 00:05:00",
+        "Stops": [
+          {
+            "Name": "Danforth",
+            "Code": null
+          },
+          {
+            "Name": "Scarborough",
+            "Code": null
+          },
+          {
+            "Name": "Eglinton",
+            "Code": null
+          },
+          {
+            "Name": "Guildwood",
+            "Code": null
+          },
+          {
+            "Name": "Rouge Hill",
+            "Code": null
+          },
+          {
+            "Name": "Pickering",
+            "Code": null
+          },
+          {
+            "Name": "Ajax",
+            "Code": null
+          },
+          {
+            "Name": "Whitby",
+            "Code": null
+          },
+          {
+            "Name": "Durham College Oshawa GO",
+            "Code": null
+          }
+        ]
+      },
+      {
+        "Info": "Proceed / Avancez - Train",
+        "TripNumber": "9238",
+        "Platform": "13",
+        "Service": "Lakeshore East",
+        "ServiceType": "T",
+        "Time": "2023-01-17 23:35:00",
+        "Stops": [
+          {
+            "Name": "Danforth",
+            "Code": null
+          },
+          {
+            "Name": "Scarborough",
+            "Code": null
+          },
+          {
+            "Name": "Eglinton",
+            "Code": null
+          },
+          {
+            "Name": "Guildwood",
+            "Code": null
+          },
+          {
+            "Name": "Rouge Hill",
+            "Code": null
+          },
+          {
+            "Name": "Pickering",
+            "Code": null
+          },
+          {
+            "Name": "Ajax",
+            "Code": null
+          },
+          {
+            "Name": "Whitby",
+            "Code": null
+          },
+          {
+            "Name": "Durham College Oshawa GO",
+            "Code": null
+          }
+        ]
+      },
+      {
+        "Info": "Wait / Attendez - Train",
+        "TripNumber": "9340",
+        "Platform": "-",
+        "Service": "Lakeshore East",
+        "ServiceType": "T",
+        "Time": "2023-01-18 00:45:00",
+        "Stops": [
+          {
+            "Name": "Danforth",
+            "Code": null
+          },
+          {
+            "Name": "Scarborough",
+            "Code": null
+          },
+          {
+            "Name": "Eglinton",
+            "Code": null
+          },
+          {
+            "Name": "Guildwood",
+            "Code": null
+          },
+          {
+            "Name": "Rouge Hill",
+            "Code": null
+          },
+          {
+            "Name": "Pickering",
+            "Code": null
+          },
+          {
+            "Name": "Ajax",
+            "Code": null
+          },
+          {
+            "Name": "Whitby",
+            "Code": null
+          },
+          {
+            "Name": "Durham College Oshawa GO",
+            "Code": null
+          }
+        ]
+      }
+    ]
+  }
+}
