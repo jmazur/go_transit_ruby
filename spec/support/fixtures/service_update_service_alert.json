@@ -1,0 +1,424 @@
+{
+  "Metadata": {
+    "TimeStamp": "2023-03-06 23:20:16",
+    "ErrorCode": "200",
+    "ErrorMessage": "OK"
+  },
+  "Messages": {
+    "Message": [
+      {
+        "Code": "M0000372841",
+        "ParentCode": "M0000372637",
+        "Status": "UPD",
+        "PostedDateTime": "2023-01-30 10:13:34",
+        "SubjectEnglish": "Elevator out of service",
+        "SubjectFrench": "",
+        "BodyEnglish": "The elevator connecting the tunnel to platform 1 is out of service. Customers who need this elevator should board the train at Guildwood or Pickering. An update will be provided as more information becomes available. We apologize for the inconvenience. Visit the Rouge Hill GO Station page to find helpful information on departures, a station map and a listing of all the services we have available. Visit our Accessibility page to see how we are committed to making our services easy for everyone to use.",
+        "BodyFrench": "L'ascenseur reliant le tunnel au quai 1 est hors service. Les clients qui ont besoin de cet ascenseur doivent monter à bord du train à Guildwood ou Pickering. Visitez la page de la gare GO de Rouge Hill pour trouver des informations utiles sur les départs, un plan des gares et une liste de tous les services disponibles. Visitez notre page Accessibilité pour voir comment nous nous engageons à rendre nos services faciles à utiliser pour tout le monde.",
+        "Category": "Amenity",
+        "SubCategory": "Elevator-Escalator Disruption",
+        "Lines": [
+          {
+            "Code": "LE"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "RO"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000374119",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2023-02-10 13:53:16",
+        "SubjectEnglish": "Elevator out of service",
+        "SubjectFrench": "Ascenseur hors service",
+        "BodyEnglish": "The elevator connecting the south lot and bus loop to the tunnel is out of service. The station remains accessible from the north lot only. Visit the Appleby GO Station page to find helpful information on departures, a station map and a listing of all the services we have available. Visit our Accessibility page to see how we are committed to making our services easy for everyone to use.",
+        "BodyFrench": "L'ascenseur qui relie le stationnement sud et la ceinture de trafic pour autobus au tunnel est hors service. La gare reste accessible uniquement depuis le stationnement nord. Visitez la page de la gare GO d’Appleby pour trouver des informations utiles, notamment sur les départs, un plan de la gare et tous les services que nous proposons. Visitez notre page Accessibilité pour voir comment nous nous engageons à rendre nos services aussi faciles à utiliser que possible pour tout le monde.",
+        "Category": "Amenity",
+        "SubCategory": "Elevator-Escalator Disruption",
+        "Lines": [
+          {
+            "Code": "LW"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "AP"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000374243",
+        "ParentCode": "M0000374156",
+        "Status": "UPD",
+        "PostedDateTime": "2023-02-12 03:33:35",
+        "SubjectEnglish": "Elevator out of service",
+        "SubjectFrench": "Ascenseur hors service",
+        "BodyEnglish": "The elevator connecting the tunnel to platform 2 and 3 (south side of platforms) is out of service. Customers who need this elevator should board the train at Scarborough GO or Union Station. Visit the Danforth GO Station page to find helpful information on departures, a station map and a listing of all the services we have available. Visit our Accessibility page to see how we are committed to making our services easy for everyone to use.",
+        "BodyFrench": "L’ascenseur qui relie le tunnel aux quais 2 et 3 (côté sud des quais) est hors service. Les passagers qui ont besoin de cet ascenseur doivent monter dans le train à Scarborough ou Union. Visitez la page de la gare GO de Danforth pour trouver des informations utiles, notamment sur les départs, un plan de la gare et tous les services que nous proposons. Visitez notre page Accessibilité pour voir comment nous nous engageons à rendre nos services aussi faciles à utiliser que possible pour tout le monde.",
+        "Category": "Amenity",
+        "SubCategory": "Elevator-Escalator Disruption",
+        "Lines": [
+          {
+            "Code": "LE"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "DA"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000375081",
+        "ParentCode": "M0000374083",
+        "Status": "UPD",
+        "PostedDateTime": "2023-02-21 11:02:05",
+        "SubjectEnglish": "Elevator out of service",
+        "SubjectFrench": "Ascenseur hors service\n",
+        "BodyEnglish": "The elevator connecting the north side of the station and platform 1 to the tunnel is out of service. Customers who need this elevator should board the train at Clarkson GO. Visit the Oakville GO Station page to find helpful information on departures, a station map and a listing of all the services we have available. Visit our Accessibility page to see how we are committed to making our services easy for everyone to use.",
+        "BodyFrench": "L’ascenseur reliant le côté nord de la gare et la quai 1 au tunnel est hors service. Les passagers qui ont besoin de cet ascenseur doivent monter dans le train à la gare de Clarkson. Visitez la page de la gare GO d’Oakville pour trouver des informations utiles, notamment sur les départs, un plan de la gare et tous les services que nous proposons. Visitez notre page Accessibilité pour voir comment nous nous engageons à rendre nos services aussi faciles à utiliser que possible pour tout le monde.",
+        "Category": "Amenity",
+        "SubCategory": "Elevator-Escalator Disruption",
+        "Lines": [
+          {
+            "Code": "LW"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "OA"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000375850",
+        "ParentCode": "M0000373220",
+        "Status": "UPD",
+        "PostedDateTime": "2023-02-27 12:26:18",
+        "SubjectEnglish": "Elevator out of service",
+        "SubjectFrench": "Ascenseur hors service",
+        "BodyEnglish": "The elevator connecting the tunnel to platforms 2 and 3 is out of service. Customers who need this elevator should board the train at Bronte or Aldershot. Visit the Burlington GO Station page to find helpful information on departures, a station map and a listing of all the services we have available. Visit our Accessibility page to see how we are committed to making our services easy for everyone to use.",
+        "BodyFrench": "L’ascenseur qui relie le tunnel aux quais 2 et 3 est hors service. Les passagers qui ont besoin de cet ascenseur doivent prendre le train à Bronte ou à Aldershot. Visitez la page de la gare GO de Burlington pour trouver des informations utiles, notamment sur les départs, un plan de la gare et tous les services que nous proposons. Visitez notre page Accessibilité pour voir comment nous nous engageons à rendre nos services aussi faciles à utiliser que possible pour tout le monde.",
+        "Category": "Amenity",
+        "SubCategory": "Elevator-Escalator Disruption",
+        "Lines": [
+          {
+            "Code": "LW"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "BU"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000376105",
+        "ParentCode": "M0000376104",
+        "Status": "UPD",
+        "PostedDateTime": "2023-03-01 02:02:57",
+        "SubjectEnglish": "Elevator out of service",
+        "SubjectFrench": "",
+        "BodyEnglish": "Brampton GO customers: The elevator connecting the tunnel to platform 1 is out of service. The station remains accessible. An update will be provided as more information becomes available. Visit the Brampton GO Station page to find helpful information on departures, a station map and a listing of all the services we have available. Visit our Accessibility page to see how we are committed to making our services easy for everyone to use.",
+        "BodyFrench": "L’ascenseur qui relie le tunnel à la quai 1 est hors service. La gare reste accessible. Visitez la page de la gare GO de Brampton pour trouver des informations utiles, notamment sur les départs, un plan de la gare et tous les services que nous proposons. Visitez notre page Accessibilité pour voir comment nous nous engageons à rendre nos services aussi faciles à utiliser que possible pour tout le monde.",
+        "Category": "Amenity",
+        "SubCategory": "Elevator-Escalator Disruption",
+        "Lines": [
+          {
+            "Code": "GT"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "BR"
+          }
+        ],
+        "Trips": [
+          {
+            "TripNumber": "3414"
+          },
+          {
+            "TripNumber": "3416"
+          },
+          {
+            "TripNumber": "3420"
+          },
+          {
+            "TripNumber": "3422"
+          },
+          {
+            "TripNumber": "3432"
+          },
+          {
+            "TripNumber": "3434"
+          },
+          {
+            "TripNumber": "3513"
+          },
+          {
+            "TripNumber": "3515"
+          },
+          {
+            "TripNumber": "3519"
+          },
+          {
+            "TripNumber": "3521"
+          },
+          {
+            "TripNumber": "3529"
+          },
+          {
+            "TripNumber": "3531"
+          },
+          {
+            "TripNumber": "3533"
+          },
+          {
+            "TripNumber": "3604"
+          },
+          {
+            "TripNumber": "3606"
+          },
+          {
+            "TripNumber": "3627"
+          },
+          {
+            "TripNumber": "3760"
+          },
+          {
+            "TripNumber": "3775"
+          },
+          {
+            "TripNumber": "3812"
+          },
+          {
+            "TripNumber": "3818"
+          },
+          {
+            "TripNumber": "3824"
+          },
+          {
+            "TripNumber": "3829"
+          },
+          {
+            "TripNumber": "3836"
+          },
+          {
+            "TripNumber": "3858"
+          },
+          {
+            "TripNumber": "3877"
+          },
+          {
+            "TripNumber": "3904"
+          },
+          {
+            "TripNumber": "3906"
+          },
+          {
+            "TripNumber": "3911"
+          },
+          {
+            "TripNumber": "3917"
+          },
+          {
+            "TripNumber": "3923"
+          },
+          {
+            "TripNumber": "3935"
+          },
+          {
+            "TripNumber": "3937"
+          },
+          {
+            "TripNumber": "3958"
+          },
+          {
+            "TripNumber": "3975"
+          },
+          {
+            "TripNumber": "3977"
+          }
+        ]
+      },
+      {
+        "Code": "M0000376148",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2023-03-06 00:01:15",
+        "SubjectEnglish": "Hourly service on the Lakeshore West Line on March 12",
+        "SubjectFrench": "Service horaire sur la ligne Lakeshore Ouest le 12 mars",
+        "BodyEnglish": "Lakeshore West customers: On Sunday, March 12, there will be changes to service on the Lakeshore West Line due to track construction and maintenance. Trains will run approximately once an hour. Learn more.",
+        "BodyFrench": "Aux clients de Lakeshore West : Le dimanche 12 mars, des modifications seront apportées au service sur la ligne de Lakeshore West en raison de travaux à la voie ferrée et travaux d’entretien. Les trains circuleront environ une fois par heure. En savoir plus.",
+        "Category": "Disruptions",
+        "SubCategory": "Broadcast Message",
+        "Lines": [
+          {
+            "Code": "LW"
+          }
+        ],
+        "Stops": [],
+        "Trips": []
+      },
+      {
+        "Code": "M0000376260",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2023-03-02 07:45:25",
+        "SubjectEnglish": "Elevator out of service ",
+        "SubjectFrench": "Ascenseur hors service",
+        "BodyEnglish": "The elevator connecting the centre tunnel to platform 1 is out of service. The station remains accessible. Visit the Bloor GO Station page to find helpful information on departures, a station map and a listing of all the services we have available. Visit our Accessibility page to see how we are committed to making our services easy for everyone to use.",
+        "BodyFrench": "L'ascenseur qui relie le tunnel central à la quai 1 est hors service. La gare reste accessible. Visitez la page de la gare GO de Bloor pour trouver des informations utiles, notamment sur les départs, un plan de la gare et tous les services que nous proposons. Visitez notre page Accessibilité pour voir comment nous nous engageons à rendre nos services aussi faciles à utiliser que possible pour tout le monde.",
+        "Category": "Amenity",
+        "SubCategory": "Elevator-Escalator Disruption",
+        "Lines": [
+          {
+            "Code": "GT"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "BL"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000376281",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2023-03-02 10:46:09",
+        "SubjectEnglish": "Elevator out of service ",
+        "SubjectFrench": "Ascenseur hors service ",
+        "BodyEnglish": "The elevator connecting the centre tunnel to platforms 2 and 3 is out of service. The station remains accessible. Visit the Bloor GO Station page to find helpful information on departures, a station map and a listing of all the services we have available. Visit our Accessibility page to see how we are committed to making our services easy for everyone to use.",
+        "BodyFrench": "L'ascenseur qui relie le tunnel central aux quais 2 et 3 est hors service. La gare reste accessible. Visitez la page de la gare GO de Bloor pour trouver des informations utiles, notamment sur les départs, un plan de la gare et tous les services que nous proposons. Visitez notre page Accessibilité pour voir comment nous nous engageons à rendre nos services aussi faciles à utiliser que possible pour tout le monde.",
+        "Category": "Amenity",
+        "SubCategory": "Elevator-Escalator Disruption",
+        "Lines": [
+          {
+            "Code": "GT"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "BL"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000376351",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2023-03-02 22:45:33",
+        "SubjectEnglish": " Starting on March 6 the Railpath closure will be temporarily extended",
+        "SubjectFrench": "À compter du 6 mars, la fermeture du sentier Railpath sera prolongée",
+        "BodyEnglish": "As soon as March 6, the West Toronto Railpath near Bloor Station will be closed between Bloor Street West and Dundas Street West, for approximately two weeks, due to construction. For more information about construction and the new detour, click here.",
+        "BodyFrench": "À compter du 6 mars, le chemin de fer de l’ouest de Toronto, près de la gare de Bloor, sera fermé entre la rue Bloor Ouest et la rue Dundas Ouest pendant environ deux semaines en raison de travaux de construction. Pour en savoir plus sur les travaux et sur le nouveau contournement, cliquez ici.",
+        "Category": "UP Express Station Messages",
+        "SubCategory": "UP Station Disruption WEB",
+        "Lines": [
+          {
+            "Code": "UP"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "BL"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000376394",
+        "ParentCode": "M0000376324",
+        "Status": "UPD",
+        "PostedDateTime": "2023-03-03 09:15:10",
+        "SubjectEnglish": "Elevator out of service",
+        "SubjectFrench": "",
+        "BodyEnglish": "The elevators connecting the centre tunnel to platforms 1, 2 and 3 are out of service. The station remains accessible. Visit the Bloor GO Station page to find helpful information on departures, a station map and a listing of all the services we have available. Visit our Accessibility page to see how we are committed to making our services easy for everyone to use.",
+        "BodyFrench": null,
+        "Category": "UP Express Station Messages",
+        "SubCategory": "UP Station Disruption WEB",
+        "Lines": [
+          {
+            "Code": "UP"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "BL"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000376777",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2023-03-06 08:30:53",
+        "SubjectEnglish": " Elevator out of service ",
+        "SubjectFrench": "Ascenseur hors service    ",
+        "BodyEnglish": "The elevator connecting the west tunnel to platform 4 is out of service. Platform 4 remains accessible from the east tunnel. Visit the Bramalea GO Station page to find helpful information on departures, a station map and a listing of all the services we have available. Visit our Accessibility page to see how we are committed to making our services easy for everyone to use.",
+        "BodyFrench": "L'ascenseur reliant le tunnel ouest à la quai 4 est hors service. La quai 4 reste accessible depuis le tunnel Est. Visitez la page de la gare GO de Bramalea pour trouver des informations utiles, notamment sur les départs, un plan de la gare et tous les services que nous proposons. Visitez notre page Accessibilité pour voir comment nous nous engageons à rendre nos services aussi faciles à utiliser que possible pour tout le monde.",
+        "Category": "Amenity",
+        "SubCategory": "Elevator-Escalator Disruption",
+        "Lines": [
+          {
+            "Code": "GT"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "BE"
+          }
+        ],
+        "Trips": []
+      },
+      {
+        "Code": "M0000376778",
+        "ParentCode": null,
+        "Status": "INIT",
+        "PostedDateTime": "2023-03-06 08:31:07",
+        "SubjectEnglish": " Elevator out of service ",
+        "SubjectFrench": "Ascenseur hors service ",
+        "BodyEnglish": "The elevator connecting the west tunnel to platforms 2 and 3 is out of service. Platforms 2 and 3 remain accessible from the east tunnel. Visit the Bramalea GO Station page to find helpful information on departures, a station map and a listing of all the services we have available. Visit our Accessibility page to see how we are committed to making our services easy for everyone to use.",
+        "BodyFrench": "L'ascenseur reliant le tunnel ouest aux quais 2 et 3 est hors service. Les quais 2 et 3 restent accessibles depuis le tunnel Est. Visitez la page de la gare GO de Bramalea pour trouver des informations utiles, notamment sur les départs, un plan de la gare et tous les services que nous proposons. Visitez notre page Accessibilité pour voir comment nous nous engageons à rendre nos services aussi faciles à utiliser que possible pour tout le monde.",
+        "Category": "Amenity",
+        "SubCategory": "Elevator-Escalator Disruption",
+        "Lines": [
+          {
+            "Code": "GT"
+          }
+        ],
+        "Stops": [
+          {
+            "Name": null,
+            "Code": "BE"
+          }
+        ],
+        "Trips": []
+      }
+    ]
+  }
+}

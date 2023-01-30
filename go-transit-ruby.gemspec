@@ -1,9 +1,9 @@
 $LOAD_PATH.unshift(::File.join(::File.dirname(__FILE__), "lib"))
 
-require "go-transit-ruby/version"
+require "go_transit_ruby/version"
 
 Gem::Specification.new do |s|
-  s.name = "go_transit"
+  s.name = "go_transit_ruby"
   s.version = GoTransit::VERSION
   s.required_ruby_version = ">= 2.3.0"
   s.summary = "Ruby Interface for the Go Transit API"
@@ -21,4 +21,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "rspec"
   s.add_development_dependency "pry"
   s.add_development_dependency "sinatra"
+  s.add_development_dependency "webmock"
 end

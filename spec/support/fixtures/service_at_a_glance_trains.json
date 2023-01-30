@@ -1,0 +1,74 @@
+{
+  "Metadata": {
+    "TimeStamp": "2023-03-06 18:00:22",
+    "ErrorCode": "200",
+    "ErrorMessage": "OK"
+  },
+  "Trips": {
+    "Trip": [
+      {
+        "Cars": "12",
+        "TripNumber": "1024",
+        "StartTime": "14:54",
+        "EndTime": "16:00",
+        "LineCode": "LW",
+        "RouteNumber": "LW   ",
+        "VariantDir": "E",
+        "Display": "LW - Union Station",
+        "Latitude": 43.592085,
+        "Longitude": -79.545058,
+        "IsInMotion": false,
+        "DelaySeconds": 8658,
+        "Course": 0.0,
+        "FirstStopCode": "AL",
+        "LastStopCode": "UN",
+        "PrevStopCode": "REVU",
+        "NextStopCode": "LO",
+        "AtStationCode": null,
+        "ModifiedDate": "2023-03-06 18:00:10"
+      },
+      {
+        "Cars": "12",
+        "TripNumber": "1027",
+        "StartTime": "17:15",
+        "EndTime": "18:22",
+        "LineCode": "LW",
+        "RouteNumber": "LW   ",
+        "VariantDir": "W",
+        "Display": "LW - Aldershot GO",
+        "Latitude": 43.4575,
+        "Longitude": -79.679934,
+        "IsInMotion": true,
+        "DelaySeconds": 318,
+        "Course": 216.0,
+        "FirstStopCode": "UN",
+        "LastStopCode": "AL",
+        "PrevStopCode": "OAKY",
+        "NextStopCode": "OA",
+        "AtStationCode": null,
+        "ModifiedDate": "2023-03-06 18:00:10"
+      },
+      {
+        "Cars": "12",
+        "TripNumber": "1028",
+        "StartTime": "16:54",
+        "EndTime": "18:00",
+        "LineCode": "LW",
+        "RouteNumber": "LW   ",
+        "VariantDir": "E",
+        "Display": "LW - Union Station",
+        "Latitude": 43.64351,
+        "Longitude": -79.385111,
+        "IsInMotion": true,
+        "DelaySeconds": 84,
+        "Course": 58.0,
+        "FirstStopCode": "AL",
+        "LastStopCode": "UN",
+        "PrevStopCode": "JOHN",
+        "NextStopCode": "UN",
+        "AtStationCode": null,
+        "ModifiedDate": "2023-03-06 17:59:53"
+      }
+    ]
+  }
+}

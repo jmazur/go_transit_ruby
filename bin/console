@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require "bundler/setup"
-require "go-transit-ruby"
+require "go_transit_ruby"
 require "pry"
 require "irb"
 

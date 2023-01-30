@@ -1,0 +1,233 @@
+{
+  "Metadata": {
+    "TimeStamp": "2023-03-07 22:51:59",
+    "ErrorCode": "200",
+    "ErrorMessage": "OK"
+  },
+  "Trip": [
+    {
+      "TripNumber": "E1856Q",
+      "TripName": "",
+      "IsCancelled": "0",
+      "IsOverride": "1",
+      "Stop": [
+        {
+          "Order": 1,
+          "ID": "907",
+          "SchArrival": null,
+          "SchDeparture": null,
+          "Name": "Union Station",
+          "IsStopping": "0",
+          "IsCancelled": "0",
+          "IsOverride": "1",
+          "Code": "UN",
+          "ActualTime": null,
+          "ServiceType": "T"
+        }
+      ]
+    },
+    {
+      "TripNumber": "E3906D",
+      "TripName": "",
+      "IsCancelled": "0",
+      "IsOverride": "0",
+      "Stop": []
+    },
+    {
+      "TripNumber": "E9307Q",
+      "TripName": "",
+      "IsCancelled": "0",
+      "IsOverride": "1",
+      "Stop": [
+        {
+          "Order": 1,
+          "ID": "907",
+          "SchArrival": null,
+          "SchDeparture": null,
+          "Name": "Union Station",
+          "IsStopping": "0",
+          "IsCancelled": "0",
+          "IsOverride": "1",
+          "Code": "UN",
+          "ActualTime": null,
+          "ServiceType": "T"
+        }
+      ]
+    },
+    {
+      "TripNumber": "E3858Q",
+      "TripName": "",
+      "IsCancelled": "0",
+      "IsOverride": "1",
+      "Stop": [
+        {
+          "Order": 1,
+          "ID": "907",
+          "SchArrival": null,
+          "SchDeparture": null,
+          "Name": "Union Station",
+          "IsStopping": "0",
+          "IsCancelled": "0",
+          "IsOverride": "1",
+          "Code": "UN",
+          "ActualTime": null,
+          "ServiceType": "T"
+        }
+      ]
+    },
+    {
+      "TripNumber": "E9309Q",
+      "TripName": "",
+      "IsCancelled": "0",
+      "IsOverride": "1",
+      "Stop": [
+        {
+          "Order": 1,
+          "ID": "907",
+          "SchArrival": null,
+          "SchDeparture": null,
+          "Name": "Union Station",
+          "IsStopping": "0",
+          "IsCancelled": "0",
+          "IsOverride": "1",
+          "Code": "UN",
+          "ActualTime": null,
+          "ServiceType": "T"
+        }
+      ]
+    },
+    {
+      "TripNumber": "E9124",
+      "TripName": "",
+      "IsCancelled": "0",
+      "IsOverride": "0",
+      "Stop": []
+    },
+    {
+      "TripNumber": "E1960B",
+      "TripName": "",
+      "IsCancelled": "0",
+      "IsOverride": "1",
+      "Stop": [
+        {
+          "Order": 1,
+          "ID": "907",
+          "SchArrival": null,
+          "SchDeparture": null,
+          "Name": "Union Station",
+          "IsStopping": "0",
+          "IsCancelled": "0",
+          "IsOverride": "1",
+          "Code": "UN",
+          "ActualTime": null,
+          "ServiceType": "T"
+        }
+      ]
+    },
+    {
+      "TripNumber": "E1856D",
+      "TripName": "",
+      "IsCancelled": "1",
+      "IsOverride": "0",
+      "Stop": []
+    },
+    {
+      "TripNumber": "E9307B",
+      "TripName": "",
+      "IsCancelled": "1",
+      "IsOverride": "0",
+      "Stop": []
+    },
+    {
+      "TripNumber": "E3906Q",
+      "TripName": "",
+      "IsCancelled": "1",
+      "IsOverride": "1",
+      "Stop": [
+        {
+          "Order": 1,
+          "ID": "907",
+          "SchArrival": null,
+          "SchDeparture": null,
+          "Name": "Union Station",
+          "IsStopping": "0",
+          "IsCancelled": "0",
+          "IsOverride": "1",
+          "Code": "UN",
+          "ActualTime": null,
+          "ServiceType": "T"
+        }
+      ]
+    },
+    {
+      "TripNumber": "E3858W",
+      "TripName": "",
+      "IsCancelled": "1",
+      "IsOverride": "0",
+      "Stop": []
+    },
+    {
+      "TripNumber": "E9309W",
+      "TripName": "",
+      "IsCancelled": "1",
+      "IsOverride": "0",
+      "Stop": []
+    },
+    {
+      "TripNumber": "E1960C",
+      "TripName": "",
+      "IsCancelled": "1",
+      "IsOverride": "1",
+      "Stop": []
+    },
+    {
+      "TripNumber": "E1960W",
+      "TripName": "",
+      "IsCancelled": "1",
+      "IsOverride": "0",
+      "Stop": []
+    },
+    {
+      "TripNumber": "E1960K",
+      "TripName": "",
+      "IsCancelled": "1",
+      "IsOverride": "1",
+      "Stop": []
+    },
+    {
+      "TripNumber": "E9124C",
+      "TripName": "",
+      "IsCancelled": "1",
+      "IsOverride": "1",
+      "Stop": []
+    },
+    {
+      "TripNumber": "E9124Q",
+      "TripName": "",
+      "IsCancelled": "1",
+      "IsOverride": "1",
+      "Stop": []
+    },
+    {
+      "TripNumber": "E6331Q",
+      "TripName": "",
+      "IsCancelled": "1",
+      "IsOverride": "1",
+      "Stop": [
+        {
+          "Order": 2,
+          "ID": "907",
+          "SchArrival": null,
+          "SchDeparture": null,
+          "Name": "Union Station",
+          "IsStopping": "0",
+          "IsCancelled": "0",
+          "IsOverride": "1",
+          "Code": "UN",
+          "ActualTime": null,
+          "ServiceType": "T"
+        }
+      ]
+    }
+  ]
+}

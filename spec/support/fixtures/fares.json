@@ -1,0 +1,176 @@
+{
+  "Metadata": {
+    "TimeStamp": "2023-03-08 23:52:54",
+    "ErrorCode": "200",
+    "ErrorMessage": "OK"
+  },
+  "AllFares": {
+    "FareCategory": [
+      {
+        "Type": "Adult",
+        "Tickets": [
+          {
+            "Type": "Paper",
+            "Fares": [
+              {
+                "Type": "Single Ride Adult",
+                "Amount": 8.85,
+                "Category": "Normal"
+              },
+              {
+                "Type": "Day Pass Adult",
+                "Amount": 17.70,
+                "Category": "Normal"
+              }
+            ]
+          },
+          {
+            "Type": "Presto",
+            "Fares": [
+              {
+                "Type": "PrestoTrips1-35",
+                "Amount": 7.45,
+                "Category": "Normal"
+              },
+              {
+                "Type": "PrestoTrips36-40",
+                "Amount": 1.01,
+                "Category": "Normal"
+              },
+              {
+                "Type": "PrestoTrips41+",
+                "Amount": 0.00,
+                "Category": "Normal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Type": "Student",
+        "Tickets": [
+          {
+            "Type": "Paper",
+            "Fares": [
+              {
+                "Type": "Single Ride Student",
+                "Amount": 8.85,
+                "Category": "Normal"
+              },
+              {
+                "Type": "Day Pass Student",
+                "Amount": 17.70,
+                "Category": "Normal"
+              }
+            ]
+          },
+          {
+            "Type": "Presto",
+            "Fares": [
+              {
+                "Type": "PrestoTrips1-30",
+                "Amount": 5.31,
+                "Category": "Normal"
+              },
+              {
+                "Type": "PrestoTrips31-40",
+                "Amount": 0.44,
+                "Category": "Normal"
+              },
+              {
+                "Type": "PrestoTrips41+",
+                "Amount": 0.00,
+                "Category": "Normal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Type": "Senior",
+        "Tickets": [
+          {
+            "Type": "Paper",
+            "Fares": [
+              {
+                "Type": "Single Ride Senior",
+                "Amount": 4.45,
+                "Category": "Normal"
+              },
+              {
+                "Type": "Day Pass Senior",
+                "Amount": 8.85,
+                "Category": "Normal"
+              }
+            ]
+          },
+          {
+            "Type": "Presto",
+            "Fares": [
+              {
+                "Type": "PrestoTrips1-40",
+                "Amount": 3.97,
+                "Category": "Normal"
+              },
+              {
+                "Type": "PrestoTrips41+",
+                "Amount": 0.00,
+                "Category": "Normal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Type": "Child",
+        "Tickets": [
+          {
+            "Type": "Paper",
+            "Fares": [
+              {
+                "Type": "Single Ride Child",
+                "Amount": 0.00,
+                "Category": "Normal"
+              },
+              {
+                "Type": "Day Pass Child",
+                "Amount": 0.00,
+                "Category": "Normal"
+              }
+            ]
+          },
+          {
+            "Type": "Presto",
+            "Fares": [
+              {
+                "Type": "PrestoTrips1-40",
+                "Amount": 0.00,
+                "Category": "Normal"
+              },
+              {
+                "Type": "PrestoTrips41+",
+                "Amount": 0.00,
+                "Category": "Normal"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "Type": "Group Pass",
+        "Tickets": [
+          {
+            "Type": "Paper",
+            "Fares": [
+              {
+                "Type": "Group Pass",
+                "Amount": 35.40,
+                "Category": "Normal"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

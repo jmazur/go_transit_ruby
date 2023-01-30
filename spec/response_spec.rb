@@ -6,10 +6,10 @@ RSpec.describe GoTransit::Response do
       expect(response.metadata).to be_a(GoTransit::Metadata)
     end
 
-    it "builds the appropriate objects to data" do
+    it "loads the response content into data" do
       response = GoTransit::Response.new(stubbed_response)
 
-      expect(response.data).to all(be_a(GoTransit::Trip))
+      expect(response.data).to eq(stubbed_data)
     end
   end
 
@@ -17,10 +17,25 @@ RSpec.describe GoTransit::Response do
     json = <<~EOS
       {
         "Metadata": {
-        "TimeStamp": "2023-01-18 02:28:40",
-        "ErrorCode": "200",
-        "ErrorMessage": "No Content"
+          "TimeStamp": "2023-01-18 02:28:40",
+          "ErrorCode": "200",
+          "ErrorMessage": "No Content"
         },
+        "Trip": [{
+          "TripNumber": "E6333Q",
+          "TripName": "",
+          "IsCancelled": "1",
+          "IsOverride": "1",
+          "Stop": []
+        }]
+      }
+    EOS
+    JSON.parse(json)
+  end
+
+  def stubbed_data
+    json = <<~EOS
+      {
         "Trip": [{
           "TripNumber": "E6333Q",
           "TripName": "",

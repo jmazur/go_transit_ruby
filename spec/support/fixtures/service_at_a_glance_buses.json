@@ -1,0 +1,74 @@
+{
+  "Metadata": {
+    "TimeStamp": "2023-03-06 18:00:51",
+    "ErrorCode": "200",
+    "ErrorMessage": "OK"
+  },
+  "Trips": {
+    "Trip": [
+      {
+        "BusType": "Coach",
+        "TripNumber": "12601",
+        "StartTime": "16:37",
+        "EndTime": "18:32",
+        "LineCode": "12",
+        "RouteNumber": "12   ",
+        "VariantDir": "W",
+        "Display": "12  - Niagara Falls",
+        "Latitude": 43.167817,
+        "Longitude": -79.208983,
+        "IsInMotion": true,
+        "DelaySeconds": -156,
+        "Course": 105.0,
+        "FirstStopCode": "00139",
+        "LastStopCode": "02408",
+        "PrevStopCode": "02402",
+        "NextStopCode": "02404",
+        "AtStationCode": null,
+        "ModifiedDate": "2023-03-06 17:59:59"
+      },
+      {
+        "BusType": "Coach",
+        "TripNumber": "12650",
+        "StartTime": "16:04",
+        "EndTime": "17:59",
+        "LineCode": "12",
+        "RouteNumber": "12   ",
+        "VariantDir": "E",
+        "Display": "12  - Burlington Carpool",
+        "Latitude": 43.38915,
+        "Longitude": -79.8273,
+        "IsInMotion": false,
+        "DelaySeconds": -109,
+        "Course": 0.0,
+        "FirstStopCode": "02408",
+        "LastStopCode": "00139",
+        "PrevStopCode": "00177",
+        "NextStopCode": null,
+        "AtStationCode": null,
+        "ModifiedDate": "2023-03-06 17:56:58"
+      },
+      {
+        "BusType": "Coach",
+        "TripNumber": "12661",
+        "StartTime": "17:37",
+        "EndTime": "19:32",
+        "LineCode": "12",
+        "RouteNumber": "12   ",
+        "VariantDir": "W",
+        "Display": "12  - Niagara Falls",
+        "Latitude": 43.329283,
+        "Longitude": -79.82045,
+        "IsInMotion": true,
+        "DelaySeconds": 208,
+        "Course": 247.0,
+        "FirstStopCode": "00139",
+        "LastStopCode": "02408",
+        "PrevStopCode": "00819",
+        "NextStopCode": "02406",
+        "AtStationCode": null,
+        "ModifiedDate": "2023-03-06 17:59:38"
+      }
+    ]
+  }
+}
