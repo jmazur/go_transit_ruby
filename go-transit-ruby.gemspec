@@ -5,7 +5,7 @@ require "go_transit_ruby/version"
 Gem::Specification.new do |s|
   s.name = "go_transit_ruby"
   s.version = GoTransit::VERSION
-  s.required_ruby_version = ">= 2.3.0"
+  s.required_ruby_version = ">= 2.7.0"
   s.summary = "Ruby Interface for the Go Transit API"
   s.author = "Justin Mazur"
   s.homepage = "https://github.com/jmazur/go_transit_ruby"
