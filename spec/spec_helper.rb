@@ -1,5 +1,6 @@
-$LOAD_PATH.unshift File.expand_path("../../lib", __FILE__)
-Dir[File.expand_path(File.join(File.dirname(__FILE__),'support','**','*.rb'))].each {|f| require f}
+Dir[File.expand_path(File.join(File.dirname(__FILE__),'support','**','*.rb'))].
+  each {|f| require f}
+
 require "go_transit_ruby"
 require "webmock"
 require "json"

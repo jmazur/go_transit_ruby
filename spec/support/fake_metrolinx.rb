@@ -85,6 +85,22 @@ class FakeMetrolinx < Sinatra::Base
     json_response 200, "fares.json"
   end
 
+  get "/OpenDataAPI/api/V1/Schedule/Journey/:date/:from/:to/:start_time/:count" do
+    json_response 200, "schedule_journey.json"
+  end
+
+  get "/OpenDataAPI/api/V1/Schedule/Line/:date/:line/:direction" do
+    json_response 200, "schedule_line.json"
+  end
+
+  get "/OpenDataAPI/api/V1/Schedule/Line/All/:date" do
+    json_response 200, "schedule_line_all.json"
+  end
+
+  get "/OpenDataAPI/api/V1/Schedule/Trip/:date/:trip" do
+    json_response 200, "schedule_trip.json"
+  end
+
   private
 
   def json_response(response_code, file_name)

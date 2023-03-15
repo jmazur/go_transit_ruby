@@ -1,0 +1,438 @@
+{
+  "Metadata": {
+    "TimeStamp": "2023-03-12 16:33:43",
+    "ErrorCode": "200",
+    "ErrorMessage": "OK"
+  },
+  "SchJourneys": [
+    {
+      "Date": "2023-03-13",
+      "Time": "07:00",
+      "To": "CL",
+      "From": "MI",
+      "Services": [
+        {
+          "Colour": "#98002e",
+          "Type": "RB",
+          "Direction": "W",
+          "Code": "01",
+          "StartTime": "2023-03-13 07:00:00",
+          "EndTime": "2023-03-13 07:19:00",
+          "Duration": "00:19:00",
+          "Accessible": "",
+          "Trips": {
+            "Trip": [
+              {
+                "Number": "1705",
+                "Display": "LW - West Harbour GO",
+                "Line": "LW",
+                "Direction": "W",
+                "LineVariant": "LW",
+                "Type": "T",
+                "Stops": {
+                  "Stop": [
+                    {
+                      "Code": "MI",
+                      "Order": 3,
+                      "Time": "07:00",
+                      "sortingTime": "0700",
+                      "IsMajor": true
+                    },
+                    {
+                      "Code": "LO",
+                      "Order": 4,
+                      "Time": "07:06",
+                      "sortingTime": "0706",
+                      "IsMajor": true
+                    },
+                    {
+                      "Code": "PO",
+                      "Order": 5,
+                      "Time": "07:12",
+                      "sortingTime": "0712",
+                      "IsMajor": true
+                    },
+                    {
+                      "Code": "CL",
+                      "Order": 6,
+                      "Time": "07:19",
+                      "sortingTime": "0719",
+                      "IsMajor": true
+                    }
+                  ]
+                },
+                "destinationStopCode": "CL",
+                "departFromCode": "MI",
+                "departFromAlternativeCode": null,
+                "departFromTimingPoint": "mimicS",
+                "tripPatternId": 2756
+              }
+            ]
+          },
+          "Transfers": {
+            "Transfer": []
+          },
+          "TransferLinks": {
+            "Link": []
+          },
+          "StartSortTime": "0700",
+          "EndSortTime": "0719",
+          "tripHash": "1705_",
+          "transferCount": 0
+        },
+        {
+          "Colour": "#98002e",
+          "Type": "RB",
+          "Direction": "W",
+          "Code": "01",
+          "StartTime": "2023-03-13 07:30:00",
+          "EndTime": "2023-03-13 07:49:00",
+          "Duration": "00:19:00",
+          "Accessible": "",
+          "Trips": {
+            "Trip": [
+              {
+                "Number": "1007",
+                "Display": "LW - Aldershot GO",
+                "Line": "LW",
+                "Direction": "W",
+                "LineVariant": "LW",
+                "Type": "T",
+                "Stops": {
+                  "Stop": [
+                    {
+                      "Code": "MI",
+                      "Order": 3,
+                      "Time": "07:30",
+                      "sortingTime": "0730",
+                      "IsMajor": true
+                    },
+                    {
+                      "Code": "LO",
+                      "Order": 4,
+                      "Time": "07:36",
+                      "sortingTime": "0736",
+                      "IsMajor": true
+                    },
+                    {
+                      "Code": "PO",
+                      "Order": 5,
+                      "Time": "07:42",
+                      "sortingTime": "0742",
+                      "IsMajor": true
+                    },
+                    {
+                      "Code": "CL",
+                      "Order": 6,
+                      "Time": "07:49",
+                      "sortingTime": "0749",
+                      "IsMajor": true
+                    }
+                  ]
+                },
+                "destinationStopCode": "CL",
+                "departFromCode": "MI",
+                "departFromAlternativeCode": null,
+                "departFromTimingPoint": "mimicS",
+                "tripPatternId": 2759
+              }
+            ]
+          },
+          "Transfers": {
+            "Transfer": []
+          },
+          "TransferLinks": {
+            "Link": []
+          },
+          "StartSortTime": "0730",
+          "EndSortTime": "0749",
+          "tripHash": "1007_",
+          "transferCount": 0
+        },
+        {
+          "Colour": "#98002e",
+          "Type": "RB",
+          "Direction": "W",
+          "Code": "01",
+          "StartTime": "2023-03-13 07:00:00",
+          "EndTime": "2023-03-13 07:49:00",
+          "Duration": "00:49:00",
+          "Accessible": "",
+          "Trips": {
+            "Trip": [
+              {
+                "Number": "1705",
+                "Display": "LW - West Harbour GO",
+                "Line": "LW",
+                "Direction": "W",
+                "LineVariant": "LW",
+                "Type": "T",
+                "Stops": {
+                  "Stop": [
+                    {
+                      "Code": "MI",
+                      "Order": 3,
+                      "Time": "07:00",
+                      "sortingTime": "0700",
+                      "IsMajor": true
+                    },
+                    {
+                      "Code": "LO",
+                      "Order": 4,
+                      "Time": "07:06",
+                      "sortingTime": "0706",
+                      "IsMajor": true
+                    },
+                    {
+                      "Code": "PO",
+                      "Order": 5,
+                      "Time": "07:12",
+                      "sortingTime": "0712",
+                      "IsMajor": true
+                    }
+                  ]
+                },
+                "destinationStopCode": "PO",
+                "departFromCode": "MI",
+                "departFromAlternativeCode": null,
+                "departFromTimingPoint": "mimicS",
+                "tripPatternId": 2756
+              },
+              {
+                "Number": "1007",
+                "Display": "LW - Aldershot GO",
+                "Line": "LW",
+                "Direction": "W",
+                "LineVariant": "LW",
+                "Type": "T",
+                "Stops": {
+                  "Stop": [
+                    {
+                      "Code": "PO",
+                      "Order": 5,
+                      "Time": "07:42",
+                      "sortingTime": "0742",
+                      "IsMajor": true
+                    },
+                    {
+                      "Code": "CL",
+                      "Order": 6,
+                      "Time": "07:49",
+                      "sortingTime": "0749",
+                      "IsMajor": true
+                    }
+                  ]
+                },
+                "destinationStopCode": "CL",
+                "departFromCode": "PO",
+                "departFromAlternativeCode": null,
+                "departFromTimingPoint": "ptcreS",
+                "tripPatternId": 2759
+              }
+            ]
+          },
+          "Transfers": {
+            "Transfer": [
+              {
+                "Code": "PO",
+                "Order": 5,
+                "Time": "07:12"
+              }
+            ]
+          },
+          "TransferLinks": {
+            "Link": [
+              {
+                "FromTrip": "1705",
+                "FromStopCode": "PO",
+                "ToTrip": "1007",
+                "ToStopCode": "PO",
+                "TransferDuration": "00:30:00"
+              }
+            ]
+          },
+          "StartSortTime": "0700",
+          "EndSortTime": "0749",
+          "tripHash": "1007_1705_",
+          "transferCount": 1
+        },
+        {
+          "Colour": "#98002e",
+          "Type": "RB",
+          "Direction": "W",
+          "Code": "01",
+          "StartTime": "2023-03-13 08:00:00",
+          "EndTime": "2023-03-13 08:19:00",
+          "Duration": "00:19:00",
+          "Accessible": "",
+          "Trips": {
+            "Trip": [
+              {
+                "Number": "1707",
+                "Display": "LW - West Harbour GO",
+                "Line": "LW",
+                "Direction": "W",
+                "LineVariant": "LW",
+                "Type": "T",
+                "Stops": {
+                  "Stop": [
+                    {
+                      "Code": "MI",
+                      "Order": 3,
+                      "Time": "08:00",
+                      "sortingTime": "0800",
+                      "IsMajor": true
+                    },
+                    {
+                      "Code": "LO",
+                      "Order": 4,
+                      "Time": "08:06",
+                      "sortingTime": "0806",
+                      "IsMajor": true
+                    },
+                    {
+                      "Code": "PO",
+                      "Order": 5,
+                      "Time": "08:12",
+                      "sortingTime": "0812",
+                      "IsMajor": true
+                    },
+                    {
+                      "Code": "CL",
+                      "Order": 6,
+                      "Time": "08:19",
+                      "sortingTime": "0819",
+                      "IsMajor": true
+                    }
+                  ]
+                },
+                "destinationStopCode": "CL",
+                "departFromCode": "MI",
+                "departFromAlternativeCode": null,
+                "departFromTimingPoint": "mimicS",
+                "tripPatternId": 2763
+              }
+            ]
+          },
+          "Transfers": {
+            "Transfer": []
+          },
+          "TransferLinks": {
+            "Link": []
+          },
+          "StartSortTime": "0800",
+          "EndSortTime": "0819",
+          "tripHash": "1707_",
+          "transferCount": 0
+        },
+        {
+          "Colour": "#98002e",
+          "Type": "RB",
+          "Direction": "W",
+          "Code": "01",
+          "StartTime": "2023-03-13 07:30:00",
+          "EndTime": "2023-03-13 08:19:00",
+          "Duration": "00:49:00",
+          "Accessible": "",
+          "Trips": {
+            "Trip": [
+              {
+                "Number": "1007",
+                "Display": "LW - Aldershot GO",
+                "Line": "LW",
+                "Direction": "W",
+                "LineVariant": "LW",
+                "Type": "T",
+                "Stops": {
+                  "Stop": [
+                    {
+                      "Code": "MI",
+                      "Order": 3,
+                      "Time": "07:30",
+                      "sortingTime": "0730",
+                      "IsMajor": true
+                    },
+                    {
+                      "Code": "LO",
+                      "Order": 4,
+                      "Time": "07:36",
+                      "sortingTime": "0736",
+                      "IsMajor": true
+                    },
+                    {
+                      "Code": "PO",
+                      "Order": 5,
+                      "Time": "07:42",
+                      "sortingTime": "0742",
+                      "IsMajor": true
+                    }
+                  ]
+                },
+                "destinationStopCode": "PO",
+                "departFromCode": "MI",
+                "departFromAlternativeCode": null,
+                "departFromTimingPoint": "mimicS",
+                "tripPatternId": 2759
+              },
+              {
+                "Number": "1707",
+                "Display": "LW - West Harbour GO",
+                "Line": "LW",
+                "Direction": "W",
+                "LineVariant": "LW",
+                "Type": "T",
+                "Stops": {
+                  "Stop": [
+                    {
+                      "Code": "PO",
+                      "Order": 5,
+                      "Time": "08:12",
+                      "sortingTime": "0812",
+                      "IsMajor": true
+                    },
+                    {
+                      "Code": "CL",
+                      "Order": 6,
+                      "Time": "08:19",
+                      "sortingTime": "0819",
+                      "IsMajor": true
+                    }
+                  ]
+                },
+                "destinationStopCode": "CL",
+                "departFromCode": "PO",
+                "departFromAlternativeCode": null,
+                "departFromTimingPoint": "ptcreS",
+                "tripPatternId": 2763
+              }
+            ]
+          },
+          "Transfers": {
+            "Transfer": [
+              {
+                "Code": "PO",
+                "Order": 5,
+                "Time": "07:42"
+              }
+            ]
+          },
+          "TransferLinks": {
+            "Link": [
+              {
+                "FromTrip": "1007",
+                "FromStopCode": "PO",
+                "ToTrip": "1707",
+                "ToStopCode": "PO",
+                "TransferDuration": "00:30:00"
+              }
+            ]
+          },
+          "StartSortTime": "0730",
+          "EndSortTime": "0819",
+          "tripHash": "1707_1007_",
+          "transferCount": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,4 +1,4 @@
-RSpec.describe GoTransit::Stop do
+RSpec.describe GoTransit::Fare do
   describe ".get" do
     it "is a collection of stations" do
       fares = GoTransit::Fare.get(from_stop_code: "UN", to_stop_code: "CL", operational_day: "20230303")
