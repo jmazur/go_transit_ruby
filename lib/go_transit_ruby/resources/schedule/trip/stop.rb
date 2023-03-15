@@ -1,11 +1,6 @@
 module GoTransit
   class Schedule::Trip::Stop < ApiResource
-    include Enumerable
-
-    attr_accessor :arrival_times
-
-    def each(&block)
-      arrival_times.each(&block)
-    end
+    attr_accessor :arrival_time, :departure_time, :track, :code, :status, 
+                  :remark
   end
 end

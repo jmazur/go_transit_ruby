@@ -8,7 +8,7 @@ module GoTransit
 
     def hydrate(params)
       params.each_pair do |key, value|
-        if collection?(value)          
+        if collection?(value)
           sub_key, sub_value = value.first
           key = sub_key.pluralize
           value = build_object(sub_key.singularize, sub_value)
@@ -18,7 +18,7 @@ module GoTransit
           value = build_object(key.singularize, value)
           key = key.pluralize
         end
-        send("#{key.underscore}=", value)
+        send("#{key.to_s.underscore}=", value)
       end
     end
 

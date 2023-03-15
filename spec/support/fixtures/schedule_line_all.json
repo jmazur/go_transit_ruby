@@ -1,0 +1,210 @@
+{
+  "Metadata": {
+    "TimeStamp": "2023-03-13 01:14:04",
+    "ErrorCode": "200",
+    "ErrorMessage": "OK"
+  },
+  "AllLines": {
+    "Line": [
+      {
+        "Name": "Guelph / Hwy 407 Terminal",
+        "Code": "48",
+        "IsBus": true,
+        "IsTrain": false,
+        "Variant": [
+          {
+            "Code": "48",
+            "Display": "",
+            "Direction": "E"
+          },
+          {
+            "Code": "48",
+            "Display": "",
+            "Direction": "W"
+          }
+        ]
+      },
+      {
+        "Name": "Peterborough / Oshawa",
+        "Code": "88",
+        "IsBus": true,
+        "IsTrain": false,
+        "Variant": [
+          {
+            "Code": "88",
+            "Display": "",
+            "Direction": "N"
+          },
+          {
+            "Code": "88A",
+            "Display": "",
+            "Direction": "N"
+          },
+          {
+            "Code": "88",
+            "Display": "",
+            "Direction": "S"
+          },
+          {
+            "Code": "88A",
+            "Display": "",
+            "Direction": "S"
+          }
+        ]
+      },
+      {
+        "Name": "Lakeshore East",
+        "Code": "90",
+        "IsBus": true,
+        "IsTrain": false,
+        "Variant": [
+          {
+            "Code": "90B",
+            "Display": "",
+            "Direction": "E"
+          },
+          {
+            "Code": "90B",
+            "Display": "",
+            "Direction": "W"
+          }
+        ]
+      },
+      {
+        "Name": "Oshawa / Yorkdale",
+        "Code": "92",
+        "IsBus": true,
+        "IsTrain": false,
+        "Variant": [
+          {
+            "Code": "92",
+            "Display": "",
+            "Direction": "E"
+          },
+          {
+            "Code": "92A",
+            "Display": "",
+            "Direction": "E"
+          },
+          {
+            "Code": "92",
+            "Display": "",
+            "Direction": "W"
+          },
+          {
+            "Code": "92A",
+            "Display": "",
+            "Direction": "W"
+          }
+        ]
+      },
+      {
+        "Name": "Pickering / Square One",
+        "Code": "94",
+        "IsBus": true,
+        "IsTrain": false,
+        "Variant": [
+          {
+            "Code": "94",
+            "Display": "",
+            "Direction": "E"
+          },
+          {
+            "Code": "94",
+            "Display": "",
+            "Direction": "W"
+          }
+        ]
+      },
+      {
+        "Name": "Oshawa / Finch Express",
+        "Code": "96",
+        "IsBus": true,
+        "IsTrain": false,
+        "Variant": [
+          {
+            "Code": "96B",
+            "Display": "",
+            "Direction": "E"
+          },
+          {
+            "Code": "96B",
+            "Display": "",
+            "Direction": "W"
+          }
+        ]
+      },
+      {
+        "Name": "Barrie",
+        "Code": "BR",
+        "IsBus": false,
+        "IsTrain": true,
+        "Variant": [
+          {
+            "Code": "BR",
+            "Display": "BR - Allandale Waterfront GO",
+            "Direction": "N"
+          },
+          {
+            "Code": "BR",
+            "Display": "BR - Aurora GO",
+            "Direction": "N"
+          },
+          {
+            "Code": "BR",
+            "Display": "BR - Bradford GO",
+            "Direction": "N"
+          },
+          {
+            "Code": "BR",
+            "Display": "BR - Union Station",
+            "Direction": "S"
+          }
+        ]
+      },
+      {
+        "Name": "Kitchener",
+        "Code": "GT",
+        "IsBus": false,
+        "IsTrain": true,
+        "Variant": [
+          {
+            "Code": "GT",
+            "Display": "GT - Union Station",
+            "Direction": "E"
+          },
+          {
+            "Code": "GT",
+            "Display": "GT - Bramalea GO",
+            "Direction": "W"
+          },
+          {
+            "Code": "GT",
+            "Display": "GT - Georgetown GO",
+            "Direction": "W"
+          },
+          {
+            "Code": "GT",
+            "Display": "GT - Guelph Central GO",
+            "Direction": "W"
+          },
+          {
+            "Code": "GT",
+            "Display": "GT - Kitchener GO",
+            "Direction": "W"
+          },
+          {
+            "Code": "GT",
+            "Display": "GT - London VIA",
+            "Direction": "W"
+          },
+          {
+            "Code": "GT",
+            "Display": "GT - Mount Pleasant GO",
+            "Direction": "W"
+          }
+        ]
+      }
+    ]
+  }
+}
