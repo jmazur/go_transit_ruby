@@ -1,4 +1,6 @@
 # Go Transit API Ruby Wrapper
+[![Tests](https://github.com/jmazur/go_transit_ruby/actions/workflows/tests.yml/badge.svg?label=test)](https://github.com/jmazur/go_transit_ruby/actions/workflows/tests.yml)
+
 This gem is intended to make working with the Go Transit API easier and more
 consistent. The API endpoints were re-created as close to the API spec wherever
 possible, but some exceptions do exist. Reference the Go Transit API
