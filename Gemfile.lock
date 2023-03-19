@@ -19,9 +19,11 @@ GEM
     crack (0.4.5)
       rexml
     diff-lcs (1.5.0)
+    docile (1.4.0)
     hashdiff (1.0.1)
     i18n (1.12.0)
       concurrent-ruby (~> 1.0)
+    json (2.6.3)
     method_source (1.0.0)
     minitest (5.18.0)
     mustermann (3.0.0)
@@ -49,6 +51,11 @@ GEM
       rspec-support (~> 3.12.0)
     rspec-support (3.12.0)
     ruby2_keywords (0.0.5)
+    simplecov (0.17.0)
+      docile (~> 1.1)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.2)
     sinatra (3.0.5)
       mustermann (~> 3.0)
       rack (~> 2.2, >= 2.2.4)
@@ -73,6 +80,7 @@ DEPENDENCIES
   pry
   rake
   rspec
+  simplecov (= 0.17)
   sinatra
   webmock
 
