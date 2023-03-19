@@ -5,10 +5,13 @@ require "go_transit_ruby"
 require "webmock"
 require "json"
 require "pry"
+require "simplecov"
 include WebMock::API
 
 WebMock.disable_net_connect!(allow_localhost: true)
 WebMock.enable!
+
+SimpleCov.start
 
 RSpec.configure do |config|
   config.before(:each) do
