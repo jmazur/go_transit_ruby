@@ -1,7 +1,7 @@
 Dir[File.expand_path(File.join(File.dirname(__FILE__),'support','**','*.rb'))].
   each {|f| require f}
 
-require "go_transit_ruby"
+require "go_transit"
 require "webmock"
 require "json"
 require "pry"
