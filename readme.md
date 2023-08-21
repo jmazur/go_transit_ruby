@@ -16,10 +16,10 @@ You can get a Go Transit API key here
 [http://api.openmetrolinx.com/OpenDataAPI/Help/Registration/en](http://api.openmetrolinx.com/OpenDataAPI/Help/Registration/en).
 
 ## Usage
-Import go-transit and set your API key.
+Import go_transit and set your API key.
 
 ```ruby
-require "go-transit"
+require "go_transit"
 GoTransit.api_key = "YOUR_API_KEY"
 ```
 
@@ -57,7 +57,7 @@ This gem exposes the Go Transit API endpoints and hydrates objects related to th
 | :-------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------- |
 | `GoTransit::Schedule.journey(date: <Date>, from_stop_code: <string>, to_stop_code: <string>, start_time: <string>, max_journey: <int>)` | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Schedule-Journey-Date-FromStopCode-ToStopCode-StartTime-MaxJourney) |
 | `GoTransit::Schedule.line(date: <Date>, line_code: <string>, line_direction: <string>)`                                                 | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Schedule-Line-Date-LineCode-LineDirection) |
-| `GoTransit::Schedule::Line.all(date: <Date>)`                                                                                           | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Schedule-Line-All-Date) |
+| `GoTransit::Schedule::AllLines.all(date: <Date>)`                                                                                           | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Schedule-Line-All-Date) |
 | `GoTransit::Schedule::Line.stop(date: <Date>, line_code: <string>, line_direction: <string>)`                                           | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Schedule-Line-Stop-Date-LineCode-LineDirection) |
 | `GoTransit::Schedule.trip(date: <Date>, trip_number: <string>)`                                                                         | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Schedule-Trip-Date-TripNumber) |
 
