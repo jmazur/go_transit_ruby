@@ -1,13 +1,13 @@
 PATH
   remote: .
   specs:
-    go_transit (0.6.0)
+    go_transit (0.7.2)
       activesupport
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (7.0.5)
+    activesupport (7.0.8)
       concurrent-ruby (~> 1.0, >= 1.0.2)
       i18n (>= 1.6, < 2)
       minitest (>= 5.1)
@@ -25,7 +25,7 @@ GEM
       concurrent-ruby (~> 1.0)
     json (2.6.3)
     method_source (1.0.0)
-    minitest (5.18.0)
+    minitest (5.20.0)
     mustermann (3.0.0)
       ruby2_keywords (~> 0.0.1)
     pry (0.14.2)
