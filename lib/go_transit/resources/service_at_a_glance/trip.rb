@@ -8,7 +8,7 @@ module GoTransit
                   :modified_date, :occupancy_percentage
 
     def in_motion?
-      is_in_motion.to_i.positive?
+      is_in_motion
     end
   end
 end
