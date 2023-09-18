@@ -1,7 +1,7 @@
 # Go Transit API Ruby Wrapper
-[![Tests](https://github.com/jmazur/go-transit-ruby/actions/workflows/tests.yml/badge.svg?label=test)](https://github.com/jmazur/go-transit-ruby/actions/workflows/tests.yml)
-[![Maintainability](https://api.codeclimate.com/v1/badges/5a77a6755f589b011e99/maintainability)](https://codeclimate.com/github/jmazur/go-transit-ruby/maintainability)
-[![Test Coverage](https://api.codeclimate.com/v1/badges/5a77a6755f589b011e99/test_coverage)](https://codeclimate.com/github/jmazur/go-transit-ruby/test_coverage)
+[![Tests](https://github.com/jmazur/go_transit_ruby/actions/workflows/tests.yml/badge.svg?label=test)](https://github.com/jmazur/go_transit_ruby/actions/workflows/tests.yml)
+[![Maintainability](https://api.codeclimate.com/v1/badges/5a77a6755f589b011e99/maintainability)](https://codeclimate.com/github/jmazur/go_transit_ruby/maintainability)
+[![Test Coverage](https://api.codeclimate.com/v1/badges/5a77a6755f589b011e99/test_coverage)](https://codeclimate.com/github/jmazur/go_transit_ruby/test_coverage)
 
 This gem is intended to make working with the Go Transit API easier and more
 consistent. The API endpoints were re-created as close to the API spec wherever
@@ -65,6 +65,12 @@ This gem exposes the Go Transit API endpoints and hydrates objects related to th
 | Method                                                                                                  | Reference                                                      |
 | :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------- |
 | `GoTransit::Fare.get(from_stop_code: <string>, to_stop_code: <string>, operational_day: <nil\|string>)` | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Fares-FromStopCode-ToStopCode) or [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Fares-FromStopCode-ToStopCode-OperationalDay) |
+
+## Dates & Times
+All dates & times returned from the GO Transit API are in the `America/Toronto`
+timezone. All date and time fields have an additional method to convert into
+UTC. For example `departure_time_utc` on a stop will return the regular
+`departure_time` converted unto UTC.
 
 ## Missing Test Data
 At the time of development I was unable to get test data for the following endpoints. Some of these seem like they are restricted access endpoints and my key is unable to fetch any data. I'm not sure if the others are caused by API issues. These endpoints *should* work assuming the documenation is correct, but the lack of data means testing was not possible. If you are able to get data for these endpoints please open a PR and submit it, it would greatly help development.

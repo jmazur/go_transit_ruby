@@ -10,5 +10,9 @@ module GoTransit
     def in_motion?
       is_in_motion
     end
+
+    def modified_date_utc
+      to_utc(modified_date)
+    end
   end
 end

@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.required_ruby_version = ">= 2.3.0"
   s.summary = "Ruby Interface for the Go Transit API"
   s.author = "Justin Mazur"
-  s.homepage = "https://github.com/jmazur/go-transit-ruby"
+  s.homepage = "https://github.com/jmazur/go_transit_ruby"
   s.license = "MIT"
   s.files = Dir["lib/**/*"]
   s.require_paths = ["lib"]
@@ -22,4 +22,5 @@ Gem::Specification.new do |s|
   s.add_development_dependency "sinatra"
   s.add_development_dependency "webmock"
   s.add_development_dependency "simplecov", "0.17"
+  s.add_development_dependency "timecop"
 end
