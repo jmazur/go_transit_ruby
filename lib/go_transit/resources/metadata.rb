@@ -5,5 +5,9 @@ module GoTransit
     def code
       error_code.to_i
     end
+
+    def time_stamp_utc
+      to_utc(time_stamp)
+    end
   end
 end

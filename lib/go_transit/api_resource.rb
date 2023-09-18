@@ -40,5 +40,9 @@ module GoTransit
       key, data = value.first
       data.kind_of?(Array)
     end
+
+    def to_utc(date)
+      date.in_time_zone("America/Toronto").utc
+    end
   end
 end

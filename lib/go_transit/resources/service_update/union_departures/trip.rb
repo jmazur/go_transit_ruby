@@ -6,5 +6,9 @@ module GoTransit
     def platforms
       platform.split("&").collect(&:strip)
     end
+
+    def time_utc
+      to_utc(time)
+    end
   end
 end

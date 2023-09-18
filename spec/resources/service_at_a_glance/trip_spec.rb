@@ -16,4 +16,19 @@ RSpec.describe GoTransit::ServiceAtAGlance::Trip do
       end
     end
   end
+
+  describe "#modified_date_utc" do
+    it "converts the timestamp from toronto time to UTC time" do
+      Timecop.travel("2023-09-14") do
+        toronto_time = "2023-09-17 12:00:00"
+        service = GoTransit::ServiceAtAGlance::Trip.new(
+          modified_date: toronto_time
+        )
+
+        result = service.modified_date_utc
+
+        expect(result).to eq("2023-09-17 16:00:00".to_datetime)
+      end
+    end
+  end
 end

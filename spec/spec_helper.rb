@@ -6,6 +6,8 @@ require "webmock"
 require "json"
 require "pry"
 require "simplecov"
+require "timecop"
+require "active_support"
 include WebMock::API
 
 WebMock.disable_net_connect!(allow_localhost: true)
