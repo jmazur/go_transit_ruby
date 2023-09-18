@@ -1,4 +1,22 @@
 RSpec.describe GoTransit::Metadata do
+  describe "#to_s" do
+    it "includes the error code" do
+      metadata = GoTransit::Metadata.new(error_code: "418")
+
+      result = metadata.to_s
+
+      expect(result).to include("418")
+    end
+
+    it "includes the error message" do
+      metadata = GoTransit::Metadata.new(error_message: "This is a test")
+
+      result = metadata.to_s
+
+      expect(result).to include("This is a test")
+    end
+  end
+
   describe "#code" do
     it "converts error_code string to an integer" do
       metadata = GoTransit::Metadata.new(error_code: "400")
