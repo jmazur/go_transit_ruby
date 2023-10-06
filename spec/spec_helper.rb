@@ -19,5 +19,7 @@ RSpec.configure do |config|
   config.before(:each) do
     stub_request(:any, /api.openmetrolinx.com/).
       to_rack(FakeMetrolinx)
+    stub_request(:any, /example.com/).
+      to_rack(FakeMetrolinx)
   end
 end

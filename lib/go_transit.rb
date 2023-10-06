@@ -62,6 +62,14 @@ module GoTransit
   @api_key = ""
 
   class << self
-    attr_accessor :api_key
+    attr_accessor :api_key, :custom_base_url
+
+    def configure
+      yield self
+    end
+
+    def base_url
+      custom_base_url || "http://api.openmetrolinx.com/OpenDataAPI/api"
+    end
   end
 end
