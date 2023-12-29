@@ -7,6 +7,16 @@ RSpec.describe GoTransit::ServiceUpdate::UnionDepartures::Trip do
 
       expect(trip.platforms).to eq(["9", "10"])
     end
+
+    context "then platform has not been announced yet" do
+      it "is nil" do
+        trip = GoTransit::ServiceUpdate::UnionDepartures::Trip.new(
+          platform: "-"
+        )
+
+        expect(trip.platforms).to be_nil
+      end
+    end
   end
 
   describe "#time_utc" do

@@ -4,6 +4,7 @@ module GoTransit
                   :time, :stops
 
     def platforms
+      return if platform == "-"
       platform.split("&").collect(&:strip)
     end
 
