@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    go_transit (0.9.0)
+    go_transit (0.10.0)
       activesupport (<= 7.0.8)
 
 GEM
@@ -73,6 +73,7 @@ GEM
 PLATFORMS
   x86_64-darwin-19
   x86_64-darwin-22
+  x86_64-darwin-24
   x86_64-linux
 
 DEPENDENCIES
