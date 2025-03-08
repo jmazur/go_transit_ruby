@@ -1,6 +1,8 @@
 require "sinatra/base"
 
 class FakeMetrolinx < Sinatra::Base
+  set :host_authorization, permitted_hosts: []
+
   get "/OpenDataAPI/api/V1/NotFound" do
     json_response 404, "error_not_found.json"
   end
