@@ -15,7 +15,7 @@ Supports Ruby 2.7.x - 3.4.x
 
 ## API Keys
 You can get a Go Transit API key here
-[http://api.openmetrolinx.com/OpenDataAPI/Help/Registration/en](http://api.openmetrolinx.com/OpenDataAPI/Help/Registration/en).
+[https://api.openmetrolinx.com/OpenDataAPI/Help/Registration/en](https://api.openmetrolinx.com/OpenDataAPI/Help/Registration/en).
 
 ## Usage
 Import go_transit and set your API key.
@@ -33,43 +33,43 @@ This gem exposes the Go Transit API endpoints and hydrates objects related to th
 #### Stop
 | Method                                               | Reference                                                                                           |
 | :--------------------------------------------------- | :-------------------------------------------------------------------------------------------------- |
-| `GoTransit::Stop.all`                                | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Stop-All)                    |
-| `GoTransit::Stop.details(stop_code: <string>)`       | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Stop-Details-StopCode)       |
-| `GoTransit::Stop.next_service(stop_code: <string>)`  | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Stop-NextService-StopCode)   |
-| `GoTransit::Stop.destinations(stop_code: <string>, from_time: <string>, to_time: <string>)` | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Stop-Destinations-StopCode-FromTime-ToTime) |
+| `GoTransit::Stop.all`                                | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Stop-All)                    |
+| `GoTransit::Stop.details(stop_code: <string>)`       | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Stop-Details-StopCode)       |
+| `GoTransit::Stop.next_service(stop_code: <string>)`  | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Stop-NextService-StopCode)   |
+| `GoTransit::Stop.destinations(stop_code: <string>, from_time: <string>, to_time: <string>)` | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Stop-Destinations-StopCode-FromTime-ToTime) |
 
 #### Service Update
 | Method                                        | Reference                                                                                                  |
 | :-------------------------------------------- | :--------------------------------------------------------------------------------------------------------- |
-| `GoTransit::ServiceUpdate.service_alerts`     | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceUpdate-ServiceAlert-All)     |
-| `GoTransit::ServiceUpdate.information_alerts` | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceUpdate-InformationAlert-All) |
-| `GoTransit::ServiceUpdate.marketing_alerts`   | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceUpdate-MarketingAlert-All)   |
-| `GoTransit::ServiceUpdate.union_departures`   | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceUpdate-UnionDepartures-All)  |
-| `GoTransit::ServiceUpdate.service_guarantee(trip_number: <string>, operational_day: <string>)` | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceUpdate-ServiceGuarantee-TripNumber-OperationalDay) |
-| `GoTransit::ServiceUpdate::Exceptions.train`  | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceUpdate-Exceptions-Train)     |
-| `GoTransit::ServiceUpdate::Exceptions.bus`    | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceUpdate-Exceptions-Bus)       |
-| `GoTransit::ServiceUpdate::Exceptions.all`    | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceUpdate-Exceptions-All)       |
+| `GoTransit::ServiceUpdate.service_alerts`     | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceUpdate-ServiceAlert-All)     |
+| `GoTransit::ServiceUpdate.information_alerts` | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceUpdate-InformationAlert-All) |
+| `GoTransit::ServiceUpdate.marketing_alerts`   | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceUpdate-MarketingAlert-All)   |
+| `GoTransit::ServiceUpdate.union_departures`   | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceUpdate-UnionDepartures-All)  |
+| `GoTransit::ServiceUpdate.service_guarantee(trip_number: <string>, operational_day: <string>)` | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceUpdate-ServiceGuarantee-TripNumber-OperationalDay) |
+| `GoTransit::ServiceUpdate::Exceptions.train`  | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceUpdate-Exceptions-Train)     |
+| `GoTransit::ServiceUpdate::Exceptions.bus`    | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceUpdate-Exceptions-Bus)       |
+| `GoTransit::ServiceUpdate::Exceptions.all`    | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceUpdate-Exceptions-All)       |
 
 #### Service At Glance
 | Method                               | Reference                                                                                           |
 | :----------------------------------- | :-------------------------------------------------------------------------------------------------- |
-| `GoTransit::ServiceAtAGlance.buses`  | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceataGlance-Buses-All)  |
-| `GoTransit::ServiceAtAGlance.trains` | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceataGlance-Trains-All) |
-| `GoTransit::ServiceAtAGlance.upx`    | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceataGlance-UPX-All)    |
+| `GoTransit::ServiceAtAGlance.buses`  | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceataGlance-Buses-All)  |
+| `GoTransit::ServiceAtAGlance.trains` | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceataGlance-Trains-All) |
+| `GoTransit::ServiceAtAGlance.upx`    | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-ServiceataGlance-UPX-All)    |
 
 #### Schedule
 | Method                                                                                                                                  | Reference                     |
 | :-------------------------------------------------------------------------------------------------------------------------------------- | :---------------------------- |
-| `GoTransit::Schedule.journey(date: <Date>, from_stop_code: <string>, to_stop_code: <string>, start_time: <string>, max_journey: <int>)` | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Schedule-Journey-Date-FromStopCode-ToStopCode-StartTime-MaxJourney) |
-| `GoTransit::Schedule.line(date: <Date>, line_code: <string>, line_direction: <string>)`                                                 | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Schedule-Line-Date-LineCode-LineDirection) |
-| `GoTransit::Schedule::AllLines.all(date: <Date>)`                                                                                           | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Schedule-Line-All-Date) |
-| `GoTransit::Schedule::Line.stop(date: <Date>, line_code: <string>, line_direction: <string>)`                                           | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Schedule-Line-Stop-Date-LineCode-LineDirection) |
-| `GoTransit::Schedule.trip(date: <Date>, trip_number: <string>)`                                                                         | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Schedule-Trip-Date-TripNumber) |
+| `GoTransit::Schedule.journey(date: <Date>, from_stop_code: <string>, to_stop_code: <string>, start_time: <string>, max_journey: <int>)` | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Schedule-Journey-Date-FromStopCode-ToStopCode-StartTime-MaxJourney) |
+| `GoTransit::Schedule.line(date: <Date>, line_code: <string>, line_direction: <string>)`                                                 | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Schedule-Line-Date-LineCode-LineDirection) |
+| `GoTransit::Schedule::AllLines.all(date: <Date>)`                                                                                           | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Schedule-Line-All-Date) |
+| `GoTransit::Schedule::Line.stop(date: <Date>, line_code: <string>, line_direction: <string>)`                                           | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Schedule-Line-Stop-Date-LineCode-LineDirection) |
+| `GoTransit::Schedule.trip(date: <Date>, trip_number: <string>)`                                                                         | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Schedule-Trip-Date-TripNumber) |
 
 #### Fare
 | Method                                                                                                  | Reference                                                      |
 | :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------- |
-| `GoTransit::Fare.get(from_stop_code: <string>, to_stop_code: <string>, operational_day: <nil\|string>)` | [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Fares-FromStopCode-ToStopCode) or [Link](http://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Fares-FromStopCode-ToStopCode-OperationalDay) |
+| `GoTransit::Fare.get(from_stop_code: <string>, to_stop_code: <string>, operational_day: <nil\|string>)` | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Fares-FromStopCode-ToStopCode) or [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Fares-FromStopCode-ToStopCode-OperationalDay) |
 
 ## Dates & Times
 All dates & times returned from the GO Transit API are in the `America/Toronto`

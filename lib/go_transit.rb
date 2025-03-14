@@ -69,7 +69,7 @@ module GoTransit
     end
 
     def base_url
-      custom_base_url || "http://api.openmetrolinx.com/OpenDataAPI/api"
+      custom_base_url || "https://api.openmetrolinx.com/OpenDataAPI/api"
     end
   end
 end
