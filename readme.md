@@ -2,6 +2,7 @@
 [![Tests](https://github.com/jmazur/go_transit_ruby/actions/workflows/tests.yml/badge.svg?label=test)](https://github.com/jmazur/go_transit_ruby/actions/workflows/tests.yml)
 [![Maintainability](https://api.codeclimate.com/v1/badges/5a77a6755f589b011e99/maintainability)](https://codeclimate.com/github/jmazur/go_transit_ruby/maintainability)
 [![Test Coverage](https://api.codeclimate.com/v1/badges/5a77a6755f589b011e99/test_coverage)](https://codeclimate.com/github/jmazur/go_transit_ruby/test_coverage)
+[![Gem Version](https://badge.fury.io/rb/go_transit.svg?icon=si%3Arubygems)](https://badge.fury.io/rb/go_transit)
 
 This gem is intended to make working with the Go Transit API easier and more
 consistent. The API endpoints were re-created as close to the API spec wherever
