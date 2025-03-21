@@ -1,6 +1,8 @@
 require "net/http"
 require "uri"
 require "json"
+require "active_support"
+require "active_support/core_ext"
 require "active_support/core_ext/string"
 
 require "go_transit/client"
