@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.files = Dir["lib/**/*"]
   s.require_paths = ["lib"]
 
-  s.add_dependency "activesupport", '<= 7.0.8'
+  s.add_dependency "activesupport"
 
   s.add_development_dependency "bundler"
   s.add_development_dependency "rake"
