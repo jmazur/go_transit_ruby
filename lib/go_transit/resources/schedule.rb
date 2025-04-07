@@ -2,12 +2,12 @@ module GoTransit
   class Schedule < ApiResource
     attr_accessor :lines, :trips
 
-    def self.journey(date:, from_stop_code:, to_stop_code:, start_time:, 
+    def self.journey(date:, from_stop_code:, to_stop_code:, start_time:,
                      max_journey:)
       formatted_date = date.strftime("%Y%m%d")
       client = Client.new
       response = client.get(
-        "Schedule/Journey/#{formatted_date}/#{from_stop_code}/" + 
+        "Schedule/Journey/#{formatted_date}/#{from_stop_code}/" \
         "#{to_stop_code}/#{start_time}/#{max_journey}"
       )
       Schedule::Journey.new(response.data)
@@ -23,8 +23,9 @@ module GoTransit
     end
 
     def self.trip(date:, trip_number:)
+      formatted_date = date.strftime("%Y%m%d")
       client = Client.new
-      response = client.get("Schedule/Trip/#{date}/#{trip_number}")
+      response = client.get("Schedule/Trip/#{formatted_date}/#{trip_number}")
       new(response.data).trips
     end
   end
