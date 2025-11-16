@@ -106,7 +106,7 @@ DEPENDENCIES
   pry
   rake
   rspec
-  simplecov (= 0.17)
+  simplecov
   sinatra
   timecop
   webmock
