@@ -13,7 +13,7 @@ This gem does not parse any of the GTFS feeds. For those I recommend using a
 gem dedicated to parsing GTFS Real Time feeds since it is a standardized data
 type.
 
-Supports Ruby 2.7.x - 3.5.x
+Supports Ruby 2.7.x - 4.0.x
 
 ## API Keys
 You can get a Go Transit API key here
