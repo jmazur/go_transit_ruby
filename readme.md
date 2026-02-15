@@ -88,11 +88,31 @@ At the time of development I was unable to get test data for the following endpo
 * `GET api/V1/Fleet/Consist/All` - 403 Forbidden
 * `GET api/V1/Fleet/Consist/Engine/{EngineNumber}` - 403 Forbidden
 
-## Changing the API base url
+## Additional Configuration
+### Changing the API base url
 In some cases you may want to change the base go transit API url. You can use the `custom_base_url` config to set one:
 
 ```ruby
 GoTransit.configure do |config|
   config.custom_base_url = "https://example.com"
+end
+```
+
+### Logger
+Set your own logger. Defaults to stdout.
+
+```ruby
+GoTransit.configure do |config|
+  config.logger = Rails.logger
+end
+```
+
+### Response Logging
+Getting an unexpected response? Use the response logging to debug the HTTP
+response code and body. Default to false. Outputs to debug log.
+
+```ruby
+GoTransit.configure do |config|
+  config.log_response = true
 end
 ```

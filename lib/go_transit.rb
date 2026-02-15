@@ -62,9 +62,10 @@ require "go_transit/resources/schedule/journey/sch_journey/service/trip/stop"
 
 module GoTransit
   @api_key = ""
+  @log_response = false
 
   class << self
-    attr_accessor :api_key, :custom_base_url
+    attr_accessor :api_key, :custom_base_url, :log_response, :logger
 
     def configure
       yield self
@@ -72,6 +73,12 @@ module GoTransit
 
     def base_url
       custom_base_url || "https://api.openmetrolinx.com/OpenDataAPI/api"
+    end
+
+    def logger
+      @logger ||= Logger.new($stdout).tap do |log|
+        log.progname = self.name
+      end
     end
   end
 end
