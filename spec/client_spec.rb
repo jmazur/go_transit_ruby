@@ -63,5 +63,35 @@ RSpec.describe GoTransit::Client do
         }.to raise_error(GoTransit::NotFoundError)
       end
     end
+
+    context "when log response is enabled" do
+      it "logs a debug message" do
+        logger = Logger.new(@stdout)
+        allow(logger).to receive(:debug)
+        GoTransit.configure do |config|
+          config.log_response = true
+          config.logger = logger
+        end
+        client = GoTransit::Client.new
+
+        client.get("Stop/Details/UN")
+
+        expect(logger).to have_received(:debug).twice
+      end
+
+      it "logs the status code" do
+        logger = Logger.new(@stdout)
+        allow(logger).to receive(:debug)
+        GoTransit.configure do |config|
+          config.log_response = true
+          config.logger = logger
+        end
+        client = GoTransit::Client.new
+
+        client.get("Stop/Details/UN")
+
+        expect(logger).to have_received(:debug).with("[HTTP Response 200]").once
+      end
+    end
   end
 end
