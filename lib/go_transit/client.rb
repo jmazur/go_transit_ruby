@@ -9,8 +9,9 @@ module GoTransit
       uri = URI("#{GoTransit.base_url}/#{API_VERSION}/#{path}"\
                 "?key=#{GoTransit.api_key}")
       response = Net::HTTP.get_response(uri)
+      response_code = Net::HTTPResponse::CODE_TO_OBJ[response.code]
       json = JSON.parse(response.body)
-      Response.new(json)
+      Response.new(json, response_code)
     end
   end
 end

@@ -5,9 +5,10 @@ module GoTransit
     end
   end
 
-  NoContentError = Class.new(ApiError)
   BadRequestError = Class.new(ApiError)
-  UnauthorizedError = Class.new(ApiError)
   ForbiddenError = Class.new(ApiError)
+  NoContentError = Class.new(ApiError)
   NotFoundError = Class.new(ApiError)
+  TooManyRequestsError = Class.new(ApiError)
+  UnauthorizedError = Class.new(ApiError)
 end

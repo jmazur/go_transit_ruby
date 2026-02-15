@@ -1,12 +1,13 @@
 module GoTransit
   class Response
-    attr_reader :metadata, :data
+    attr_reader :metadata, :data, :response_code
 
     delegate :code, :error_message, to: :metadata
 
-    def initialize(payload)
+    def initialize(payload, response_code)
       @metadata = Metadata.new(payload.delete("Metadata"))
       @data = payload_data(payload)
+      @response_code = response_code
       throw_error
     end
 
@@ -24,7 +25,18 @@ module GoTransit
       raise UnauthorizedError.new(metadata) if code == 401
       raise ForbiddenError.new(metadata) if code == 403
       raise NotFoundError.new(metadata) if code == 404
+      raise NotFoundError.new(metadata) if not_found?
+      raise TooManyRequestsError.new(metadata) if code == 429
+      raise TooManyRequestsError.new(metadata) if too_many_requests?
       raise StandardError.new(metadata)
+    end
+
+    def not_found?
+      response_code == Net::HTTPNotFound
+    end
+
+    def too_many_requests?
+      response_code == Net::HTTPTooManyRequests
     end
   end
 end

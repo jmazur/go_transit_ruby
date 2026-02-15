@@ -62,6 +62,14 @@ RSpec.describe GoTransit::Client do
           client.get("NotFound")
         }.to raise_error(GoTransit::NotFoundError)
       end
+
+      it "responds to a 426 error" do
+        client = GoTransit::Client.new
+
+        expect {
+          client.get("NotFound")
+        }.to raise_error(GoTransit::NotFoundError)
+      end
     end
   end
 end
