@@ -7,6 +7,12 @@ class FakeMetrolinx < Sinatra::Base
     json_response 404, "error_not_found.json"
   end
 
+  get "/OpenDataAPI/api/V1/TooManyRequests" do
+    content_type :text
+    status 429
+    "Too Many Requests"
+  end
+
   get "/OpenDataAPI/api/V1/NoContent" do
     json_response 200, "error_no_content.json"
   end

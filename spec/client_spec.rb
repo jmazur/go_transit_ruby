@@ -62,6 +62,14 @@ RSpec.describe GoTransit::Client do
           client.get("NotFound")
         }.to raise_error(GoTransit::NotFoundError)
       end
+
+      it "responds to a 429 error with a non-JSON body" do
+        client = GoTransit::Client.new
+
+        expect {
+          client.get("TooManyRequests")
+        }.to raise_error(GoTransit::TooManyRequestsError)
+      end
     end
   end
 end

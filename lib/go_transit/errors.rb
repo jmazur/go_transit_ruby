@@ -10,4 +10,5 @@ module GoTransit
   UnauthorizedError = Class.new(ApiError)
   ForbiddenError = Class.new(ApiError)
   NotFoundError = Class.new(ApiError)
+  TooManyRequestsError = Class.new(ApiError)
 end
