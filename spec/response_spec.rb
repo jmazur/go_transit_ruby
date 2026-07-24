@@ -11,6 +11,24 @@ RSpec.describe GoTransit::Response do
 
       expect(response.data).to eq(stubbed_data)
     end
+
+    it "raises TooManyRequestsError when the http_status is 429" do
+      expect {
+        GoTransit::Response.new(stubbed_response, 429)
+      }.to raise_error(GoTransit::TooManyRequestsError)
+    end
+
+    it "raises TooManyRequestsError when the metadata error code is 429" do
+      expect {
+        GoTransit::Response.new(stubbed_too_many_requests_response)
+      }.to raise_error(GoTransit::TooManyRequestsError)
+    end
+
+    it "raises TooManyRequestsError when the body has no Metadata key" do
+      expect {
+        GoTransit::Response.new({ "message" => "Too Many Requests" }, 429)
+      }.to raise_error(GoTransit::TooManyRequestsError)
+    end
   end
 
   def stubbed_response
@@ -28,6 +46,19 @@ RSpec.describe GoTransit::Response do
           "IsOverride": "1",
           "Stop": []
         }]
+      }
+    EOS
+    JSON.parse(json)
+  end
+
+  def stubbed_too_many_requests_response
+    json = <<~EOS
+      {
+        "Metadata": {
+          "TimeStamp": "2023-01-18 02:28:40",
+          "ErrorCode": "429",
+          "ErrorMessage": "Too Many Requests"
+        }
       }
     EOS
     JSON.parse(json)
