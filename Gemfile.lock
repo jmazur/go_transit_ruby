@@ -36,7 +36,7 @@ GEM
     i18n (1.15.2)
       concurrent-ruby (~> 1.0)
     io-console (0.8.2)
-    json (2.21.1)
+    json (2.21.2)
     logger (1.7.0)
     method_source (1.1.0)
     minitest (6.0.6)
@@ -95,6 +95,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-24
+  x86_64-linux
 
 DEPENDENCIES
   bundler
