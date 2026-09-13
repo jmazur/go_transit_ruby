@@ -42,7 +42,11 @@ module GoTransit
     end
 
     def to_utc(date)
-      date.in_time_zone("America/Toronto").utc
+      to_local(date).utc
+    end
+
+    def to_local(date, timezone: "America/Toronto")
+      date.in_time_zone(timezone)
     end
   end
 end

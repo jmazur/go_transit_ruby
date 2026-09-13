@@ -7,5 +7,9 @@ module GoTransit
     def posted_date_time_utc
       to_utc(posted_date_time)
     end
+
+    def posted_date_time_local
+      to_local(posted_date_time)
+    end
   end
 end

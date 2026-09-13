@@ -28,4 +28,34 @@ RSpec.describe GoTransit::Schedule::Journey::SchJourney::Service do
       end
     end
   end
+
+  describe "#start_time_local" do
+    it "returns the timestamp zoned to toronto time, unshifted" do
+      Timecop.travel("2023-09-14") do
+        toronto_time = "2023-09-17 12:00:00"
+        service = GoTransit::Schedule::Journey::SchJourney::Service.new(
+          start_time: toronto_time
+        )
+
+        result = service.start_time_local
+
+        expect(result).to eq(toronto_time.in_time_zone("America/Toronto"))
+      end
+    end
+  end
+
+  describe "#end_time_local" do
+    it "returns the timestamp zoned to toronto time, unshifted" do
+      Timecop.travel("2023-09-14") do
+        toronto_time = "2023-09-17 12:00:00"
+        service = GoTransit::Schedule::Journey::SchJourney::Service.new(
+          end_time: toronto_time
+        )
+
+        result = service.end_time_local
+
+        expect(result).to eq(toronto_time.in_time_zone("America/Toronto"))
+      end
+    end
+  end
 end

@@ -13,5 +13,13 @@ module GoTransit
     def end_time_utc
       to_utc(end_time)
     end
+
+    def start_time_local
+      to_local(start_time)
+    end
+
+    def end_time_local
+      to_local(end_time)
+    end
   end
 end

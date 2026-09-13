@@ -33,4 +33,19 @@ RSpec.describe GoTransit::ServiceUpdate::UnionDepartures::Trip do
       end
     end
   end
+
+  describe "#time_local" do
+    it "returns the timestamp zoned to toronto time, unshifted" do
+      Timecop.travel("2023-09-14") do
+        toronto_time = "2023-09-17 12:00:00"
+        service = GoTransit::ServiceUpdate::UnionDepartures::Trip.new(
+          time: toronto_time
+        )
+
+        result = service.time_local
+
+        expect(result).to eq(toronto_time.in_time_zone("America/Toronto"))
+      end
+    end
+  end
 end

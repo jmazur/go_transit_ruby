@@ -18,5 +18,17 @@ module GoTransit
     def update_time_utc
       to_utc(update_time)
     end
+
+    def scheduled_departure_time_local
+      to_local(scheduled_departure_time)
+    end
+
+    def computed_departure_time_local
+      to_local(computed_departure_time)
+    end
+
+    def update_time_local
+      to_local(update_time)
+    end
   end
 end
