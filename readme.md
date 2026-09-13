@@ -75,12 +75,22 @@ This gem exposes the Go Transit API endpoints and hydrates objects related to th
 
 ## Dates & Times
 All dates & times returned from the GO Transit API are in the `America/Toronto`
-timezone. All date and time fields have an additional method to convert into
-UTC. For example `departure_time_utc` on a stop will return the regular
-`departure_time` converted unto UTC.
+timezone, returned as plain, unconverted strings, exactly as the API sent
+them. Every date and time field has two additional methods: `_utc`
+converts it into a UTC `Time`, and `_local` returns it as a proper
+`ActiveSupport::TimeWithZone` in `America/Toronto`, without shifting the
+value itself. For example, `departure_time_utc` on a stop returns the
+regular `departure_time` converted to UTC, and `departure_time_local`
+returns the same time zoned to Toronto instead.
 
 ## Missing Test Data
-At the time of development I was unable to get test data for the following endpoints. Some of these seem like they are restricted access endpoints and my key is unable to fetch any data. I'm not sure if the others are caused by API issues. These endpoints *should* work assuming the documenation is correct, but the lack of data means testing was not possible. If you are able to get data for these endpoints please open a PR and submit it, it would greatly help development.
+At the time of development I was unable to get test data for the following
+endpoints. Some of these seem like they are restricted access endpoints and my
+key is unable to fetch any data. I'm not sure if the others are caused by API
+issues. These endpoints *should* work assuming the documenation is correct, but
+the lack of data means testing was not possible. If you are able to get data for
+these endpoints please open a PR and submit it, it would greatly help
+development.
 
 * `GET api/V1/ServiceataGlance/UPX/All` - 204 No Content
 * `GET api/V1/ServiceUpdate/ServiceGuarantee/{TripNumber}/{OperationalDay}` - 204 No Content
@@ -89,7 +99,8 @@ At the time of development I was unable to get test data for the following endpo
 * `GET api/V1/Fleet/Consist/Engine/{EngineNumber}` - 403 Forbidden
 
 ## Changing the API base url
-In some cases you may want to change the base go transit API url. You can use the `custom_base_url` config to set one:
+In some cases you may want to change the base go transit API url. You can use
+the `custom_base_url` config to set one:
 
 ```ruby
 GoTransit.configure do |config|

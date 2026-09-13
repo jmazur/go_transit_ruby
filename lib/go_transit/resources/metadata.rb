@@ -13,5 +13,9 @@ module GoTransit
     def time_stamp_utc
       to_utc(time_stamp)
     end
+
+    def time_stamp_local
+      to_local(time_stamp)
+    end
   end
 end

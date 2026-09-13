@@ -14,5 +14,9 @@ module GoTransit
     def modified_date_utc
       to_utc(modified_date)
     end
+
+    def modified_date_local
+      to_local(modified_date)
+    end
   end
 end
