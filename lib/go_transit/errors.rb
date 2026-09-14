@@ -11,4 +11,5 @@ module GoTransit
   ForbiddenError = Class.new(ApiError)
   NotFoundError = Class.new(ApiError)
   TooManyRequestsError = Class.new(ApiError)
+  MissingAnchorDateError = Class.new(StandardError)
 end

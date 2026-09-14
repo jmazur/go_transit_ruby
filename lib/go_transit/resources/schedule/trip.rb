@@ -10,5 +10,9 @@ module GoTransit
     def time_stamp_local
       to_local(time_stamp)
     end
+
+    def anchor_date=(date)
+      stops.each { |stop| stop.anchor_date = date }
+    end
   end
 end

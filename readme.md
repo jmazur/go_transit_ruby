@@ -83,6 +83,45 @@ value itself. For example, `departure_time_utc` on a stop returns the
 regular `departure_time` converted to UTC, and `departure_time_local`
 returns the same time zoned to Toronto instead.
 
+### Time-only fields (no date)
+
+A few fields are returned as a bare time with no date at all (for
+example `Schedule::Trip::Stop::ArrivalTime`/`DepartureTime#scheduled` and
+`#computed`, and `Schedule::Journey::SchJourney::Service::Trip::Stop#time`).
+Converting one of these to a real `Time` requires knowing which calendar
+date it belongs to, and GO Transit's own "service date" doesn't line up
+with calendar midnight: a service date that starts at 6am can run past
+2am the next calendar day, and every stop in that overnight tail is still
+part of the *original* service date, not the next one.
+
+These fields still expose `_utc`/`_local`, resolved against a known
+anchor date (the date you requested, for `Schedule.trip`, or the date
+embedded in the response itself, for `Schedule::Journey.journey`, so you
+never need to pass one in yourself). We use a boundry hours defined as
+`GoTransit.service_day_boundary_hour` (default `4`). If the time is after
+the boundry hour then it belongs to the day *after* the anchor date; otherwise
+it's the anchor date itself. This correctly handles a trip whose very first stop
+is already past midnight, with nothing else to compare it against. Optionally
+you can change when this hour is. Local to Toronto time:
+
+```ruby
+GoTransit.configure do |config|
+  config.service_day_boundary_hour = 3
+end
+```
+
+Calling `_utc`/`_local` on one of these fields without ever going through
+`Schedule.trip`/`Schedule.journey` (e.g. constructing the resource class
+directly) raises `GoTransit::MissingAnchorDateError` rather than silently
+assuming "today".
+
+One endpoint's time-only fields don't get this treatment yet:
+`ServiceUpdate::Exceptions::Trip::Stop#sch_arrival`/`#sch_departure`/
+`#actual_time` are always `null` in every real response we've captured, so
+their actual non-null format is unconfirmed, and the endpoint gives no
+date to anchor them to either way. If you can confirm a real non-null
+value for these fields, a PR is welcome.
+
 ## Missing Test Data
 At the time of development I was unable to get test data for the following
 endpoints. Some of these seem like they are restricted access endpoints and my

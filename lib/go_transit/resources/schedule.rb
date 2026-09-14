@@ -26,7 +26,9 @@ module GoTransit
       formatted_date = date.strftime("%Y%m%d")
       client = Client.new
       response = client.get("Schedule/Trip/#{formatted_date}/#{trip_number}")
-      new(response.data).trips
+      trips = new(response.data).trips
+      trips.each { |trip| trip.anchor_date = date }
+      trips
     end
   end
 end

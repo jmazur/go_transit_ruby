@@ -48,5 +48,25 @@ module GoTransit
     def to_local(date, timezone: "America/Toronto")
       date.in_time_zone(timezone)
     end
+
+    def to_utc_from_anchor(time, trip_date, timezone: "America/Toronto")
+      to_local_from_anchor(time, trip_date, timezone: timezone)&.utc
+    end
+
+    def to_local_from_anchor(time, trip_date, timezone: "America/Toronto")
+      raise MissingAnchorDateError if trip_date.nil?
+      return nil if time.blank?
+      hour = time.split(":").first.to_i
+      date = determine_date(trip_date, hour)
+      "#{date} #{time}".in_time_zone(timezone)
+    end
+
+    def determine_date(date, hour)
+      if hour < GoTransit.service_day_boundary_hour
+        date + 1.day
+      else
+        date
+      end
+    end
   end
 end
