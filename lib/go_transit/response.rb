@@ -25,10 +25,6 @@ module GoTransit
     end
 
     def throw_error
-      # A genuine transport-level 429 always wins, even if the JSON body
-      # (when there is one) claims success - GO Transit's own error
-      # convention embeds the real code in the body, but an upstream
-      # rate limiter returning 429 isn't guaranteed to follow that.
       raise TooManyRequestsError.new(metadata) if http_status == 429
       return if code == 200
       raise NoContentError.new(metadata) if code == 204

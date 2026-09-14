@@ -62,9 +62,10 @@ require "go_transit/resources/schedule/journey/sch_journey/service/trip/stop"
 
 module GoTransit
   @api_key = ""
+  @service_day_boundary_hour = 4
 
   class << self
-    attr_accessor :api_key, :custom_base_url
+    attr_accessor :api_key, :custom_base_url, :service_day_boundary_hour
 
     def configure
       yield self
