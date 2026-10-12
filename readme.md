@@ -11,8 +11,7 @@ documenation for details on available fields.
 
 The GTFS Real Time endpoints that return JSON are supported (see below). This
 gem does not decode the protobuf format, and the API serves the JSON from the
-plain path (no file extension). For protobuf I recommend a gem dedicated to
-parsing GTFS Real Time feeds since it is a standardized data type.
+plain path (no file extension).
 
 Supports Ruby 2.7.x - 4.0.x
 
