@@ -2,7 +2,13 @@ module GoTransit
   class Response
     attr_reader :metadata, :data
 
-    delegate :code, :error_message, to: :metadata
+    def code
+      metadata.code
+    end
+
+    def error_message
+      metadata.error_message
+    end
 
     def initialize(payload, http_status = nil)
       @http_status = http_status
@@ -20,6 +26,7 @@ module GoTransit
     end
 
     def payload_data(payload)
+      return payload if payload.key?("entity")
       return payload.values.first unless payload.values.first.kind_of?(Array)
       payload
     end

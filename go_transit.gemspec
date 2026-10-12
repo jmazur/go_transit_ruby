@@ -13,8 +13,9 @@ Gem::Specification.new do |s|
   s.files = Dir["lib/**/*"]
   s.require_paths = ["lib"]
 
-  s.add_dependency "activesupport"
+  s.add_dependency "tzinfo", "~> 2.0"
 
+  s.add_development_dependency "activesupport"
   s.add_development_dependency "bundler"
   s.add_development_dependency "rake"
   s.add_development_dependency "rspec"

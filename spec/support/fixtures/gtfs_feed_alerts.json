@@ -1,0 +1,123 @@
+{
+  "header": {
+    "gtfs_realtime_version": "2.0",
+    "incrementality": "FULL_DATASET",
+    "timestamp": 1791778512
+  },
+  "entity": [
+    {
+      "id": "470883",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": null,
+      "alert": {
+        "active_period": [
+          {
+            "start": 1766490420,
+            "end": 1791850539
+          }
+        ],
+        "informed_entity": [
+          {
+            "agency_id": "",
+            "route_id": "",
+            "route_type": 0,
+            "trip": null,
+            "stop_id": "WR"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "url": {
+          "translation": [
+            {
+              "text": "https://www.gotransit.com/en/service-updates/service-updates",
+              "language": "en"
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "text": "Street level access after station hours",
+              "language": "en"
+            },
+            {
+              "text": "Accès au niveau de la rue après les heures de gare",
+              "language": "fr"
+            }
+          ]
+        },
+        "description_text": {
+          "translation": [
+            {
+              "text": "Access to the waiting area and restrooms is open Monday – Friday, 5:20 a.m. to 12:40 p.m.After the main waiting area is closed:To exit from the station building to MacNab Street, please use the walkway doors adjacent to the platform 1 staircase.",
+              "language": "en"
+            },
+            {
+              "text": "L’accès à la zone d’attente et aux toilettes est ouvert du lundi au vendredi, de 5 h 20 à 12 h 40. Après la fermeture de la zone d’attente principale : Pour sortir du bâtiment de la station vers la rue MacNab, veuillez utiliser les portes du passage piéton adjacent à l’escalier du quai 1.",
+              "language": "fr"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "480679",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": null,
+      "alert": {
+        "active_period": [
+          {
+            "start": 1790659800,
+            "end": 1791850539
+          }
+        ],
+        "informed_entity": [
+          {
+            "agency_id": "",
+            "route_id": "",
+            "route_type": 0,
+            "trip": null,
+            "stop_id": "AG"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "UNKNOWN_EFFECT",
+        "url": {
+          "translation": [
+            {
+              "text": "https://www.gotransit.com/en/service-updates/service-updates",
+              "language": "en"
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "text": "Elevator out of service",
+              "language": "en"
+            },
+            {
+              "text": "Ascenseur hors service",
+              "language": "fr"
+            }
+          ]
+        },
+        "description_text": {
+          "translation": [
+            {
+              "text": "The elevators leading from the station building to the south tunnel are out of service. Customers can access both platforms through the north tunnel using elevator access. Visit the Agincourt GO Station page to find helpful information on departures, a station map and a listing of all the services we have available. For Accessibility support during elevator outages, contact us here for assistance.",
+              "language": "en"
+            },
+            {
+              "text": "Les ascenseurs menant du bâtiment de la gare au tunnel sud sont hors service. Les clients peuvent accéder aux deux quais par le tunnel nord en utilisant l’accès aux ascenseurs. Visitez la page de la gare GO d’Agincourt pour trouver des informations utiles sur les départs, un plan de la gare et une liste de tous les services que nous avons disponibles. Pour le support sur l’accessibilité pendant les pannes d’ascenseur, contactez-nous ici pour obtenir de l’aide.",
+              "language": "fr"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
