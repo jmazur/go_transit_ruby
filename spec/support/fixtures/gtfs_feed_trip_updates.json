@@ -1,0 +1,164 @@
+{
+  "header": {
+    "gtfs_realtime_version": "2.0",
+    "incrementality": "FULL_DATASET",
+    "timestamp": 1791771974
+  },
+  "entity": [
+    {
+      "id": "20261011-LW-1981",
+      "is_deleted": false,
+      "trip_update": {
+        "trip": {
+          "trip_id": "20261011-LW-1981",
+          "route_id": "09261126-LW",
+          "direction_id": 1,
+          "start_time": "19:22:00",
+          "start_date": "20261011",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "613",
+          "label": "LW - Niagara Falls GO (VIA Station)",
+          "license_plate": ""
+        },
+        "stop_time_update": [
+          {
+            "stop_id": "NI",
+            "arrival": null,
+            "departure": {
+              "delay": 2371,
+              "time": 1791772171,
+              "uncertainty": 0
+            },
+            "schedule_relationship": "SCHEDULED"
+          }
+        ],
+        "timestamp": 1791771973,
+        "delay": null
+      },
+      "vehicle": null,
+      "alert": null
+    },
+    {
+      "id": "20261011-LW-1986",
+      "is_deleted": false,
+      "trip_update": {
+        "trip": {
+          "trip_id": "20261011-LW-1986",
+          "route_id": "09261126-LW",
+          "direction_id": 0,
+          "start_time": "19:55:00",
+          "start_date": "20261011",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "642",
+          "label": "LW - Union Station",
+          "license_plate": ""
+        },
+        "stop_time_update": [
+          {
+            "stop_id": "OA",
+            "arrival": null,
+            "departure": {
+              "delay": 2573,
+              "time": 1791772193,
+              "uncertainty": 0
+            },
+            "schedule_relationship": "SCHEDULED"
+          },
+          {
+            "stop_id": "PO",
+            "arrival": null,
+            "departure": {
+              "delay": 2573,
+              "time": 1791772853,
+              "uncertainty": 0
+            },
+            "schedule_relationship": "SCHEDULED"
+          },
+          {
+            "stop_id": "EX",
+            "arrival": null,
+            "departure": {
+              "delay": 2573,
+              "time": 1791773813,
+              "uncertainty": 0
+            },
+            "schedule_relationship": "SCHEDULED"
+          },
+          {
+            "stop_id": "UN",
+            "arrival": null,
+            "departure": {
+              "delay": 2573,
+              "time": 1791774353,
+              "uncertainty": 0
+            },
+            "schedule_relationship": "SCHEDULED"
+          }
+        ],
+        "timestamp": 1791771964,
+        "delay": null
+      },
+      "vehicle": null,
+      "alert": null
+    },
+    {
+      "id": "20261011-33-33750",
+      "is_deleted": false,
+      "trip_update": {
+        "trip": {
+          "trip_id": "20261011-33-33750",
+          "route_id": "09261126-33",
+          "direction_id": 0,
+          "start_time": "20:12:00",
+          "start_date": "20261011",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "5116",
+          "label": "33 - York Mills Term",
+          "license_plate": ""
+        },
+        "stop_time_update": [
+          {
+            "stop_id": "00022",
+            "arrival": null,
+            "departure": {
+              "delay": 191,
+              "time": 1791772811,
+              "uncertainty": 0
+            },
+            "schedule_relationship": "SCHEDULED"
+          },
+          {
+            "stop_id": "00019",
+            "arrival": null,
+            "departure": {
+              "delay": 191,
+              "time": 1791773111,
+              "uncertainty": 0
+            },
+            "schedule_relationship": "SCHEDULED"
+          },
+          {
+            "stop_id": "00011",
+            "arrival": null,
+            "departure": {
+              "delay": 191,
+              "time": 1791773711,
+              "uncertainty": 0
+            },
+            "schedule_relationship": "SCHEDULED"
+          }
+        ],
+        "timestamp": 1791771957,
+        "delay": null
+      },
+      "vehicle": null,
+      "alert": null
+    }
+  ]
+}

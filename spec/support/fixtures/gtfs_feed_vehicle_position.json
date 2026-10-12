@@ -1,0 +1,108 @@
+{
+  "header": {
+    "gtfs_realtime_version": "2.0",
+    "incrementality": "FULL_DATASET",
+    "timestamp": 1791771984
+  },
+  "entity": [
+    {
+      "id": "20261011-LW-1981",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20261011-LW-1981",
+          "route_id": "09261126-LW",
+          "direction_id": 1,
+          "start_time": "19:22:00",
+          "start_date": "20261011",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "613",
+          "label": "LW - Niagara Falls GO (VIA Station)",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.12251,
+          "longitude": -79.0811157,
+          "bearing": 0.0,
+          "odometer": 0.0,
+          "speed": 0.0
+        },
+        "stop_id": "NI",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1791771983,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    },
+    {
+      "id": "20261011-LW-1986",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20261011-LW-1986",
+          "route_id": "09261126-LW",
+          "direction_id": 0,
+          "start_time": "19:55:00",
+          "start_date": "20261011",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "642",
+          "label": "LW - Union Station",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.43205,
+          "longitude": -79.70632,
+          "bearing": 0.0,
+          "odometer": 0.0,
+          "speed": 0.0
+        },
+        "stop_id": "OA",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1791771979,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    },
+    {
+      "id": "20261011-33-33750",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20261011-33-33750",
+          "route_id": "09261126-33",
+          "direction_id": 0,
+          "start_time": "20:12:00",
+          "start_date": "20261011",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "5116",
+          "label": "33 - York Mills Term",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.6624336,
+          "longitude": -79.60765,
+          "bearing": 0.0,
+          "odometer": 0.0,
+          "speed": 0.0
+        },
+        "stop_id": "00022",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1791771957,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    }
+  ]
+}

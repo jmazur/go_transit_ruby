@@ -1,0 +1,75 @@
+{
+  "header": {
+    "gtfs_realtime_version": "2.0",
+    "incrementality": "FULL_DATASET",
+    "timestamp": 1791778538
+  },
+  "entity": [
+    {
+      "id": "20261011-4041",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20261011-4041",
+          "route_id": "UP",
+          "direction_id": 1,
+          "start_time": "23:59:00",
+          "start_date": "20261011",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "3003",
+          "label": "UP - Pearson Airport",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.6997452,
+          "longitude": -79.51223,
+          "bearing": 0.0,
+          "odometer": 0.0,
+          "speed": 0.0
+        },
+        "stop_id": "WE",
+        "current_status": "INCOMING_AT",
+        "timestamp": 1791778536,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    },
+    {
+      "id": "20261011-4140",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": {
+        "trip": {
+          "trip_id": "20261011-4140",
+          "route_id": "UP",
+          "direction_id": 0,
+          "start_time": "23:54:00",
+          "start_date": "20261011",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "3001",
+          "label": "UP - Union Station",
+          "license_plate": ""
+        },
+        "position": {
+          "latitude": 43.653614,
+          "longitude": -79.4469147,
+          "bearing": 0.0,
+          "odometer": 0.0,
+          "speed": 0.0
+        },
+        "stop_id": "UN",
+        "current_status": "IN_TRANSIT_TO",
+        "timestamp": 1791778536,
+        "congestion_level": "UNKNOWN_CONGESTION_LEVEL",
+        "occupancy_status": "EMPTY"
+      },
+      "alert": null
+    }
+  ]
+}

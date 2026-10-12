@@ -89,6 +89,30 @@ class FakeMetrolinx < Sinatra::Base
     json_response 200, "service_update_exceptions_all.json"
   end
 
+  get "/OpenDataAPI/api/V1/Gtfs/Feed/Alerts" do
+    json_response 200, "gtfs_feed_alerts.json"
+  end
+
+  get "/OpenDataAPI/api/V1/Gtfs/Feed/TripUpdates" do
+    json_response 200, "gtfs_feed_trip_updates.json"
+  end
+
+  get "/OpenDataAPI/api/V1/Gtfs/Feed/VehiclePosition" do
+    json_response 200, "gtfs_feed_vehicle_position.json"
+  end
+
+  get "/OpenDataAPI/api/V1/UP/Gtfs/Feed/Alerts" do
+    json_response 200, "up_gtfs_feed_alerts.json"
+  end
+
+  get "/OpenDataAPI/api/V1/UP/Gtfs/Feed/TripUpdates" do
+    json_response 200, "up_gtfs_feed_trip_updates.json"
+  end
+
+  get "/OpenDataAPI/api/V1/UP/Gtfs/Feed/VehiclePosition" do
+    json_response 200, "up_gtfs_feed_vehicle_position.json"
+  end
+
   get "/OpenDataAPI/api/V1/Fares/:from/:to/:date" do
     json_response 200, "fares.json"
   end

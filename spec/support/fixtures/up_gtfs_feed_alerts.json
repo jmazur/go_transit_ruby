@@ -1,0 +1,123 @@
+{
+  "header": {
+    "gtfs_realtime_version": "2.0",
+    "incrementality": "FULL_DATASET",
+    "timestamp": 1791778460
+  },
+  "entity": [
+    {
+      "id": "524888",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": null,
+      "alert": {
+        "active_period": [
+          {
+            "start": 1788376080,
+            "end": 1791850554
+          }
+        ],
+        "informed_entity": [
+          {
+            "agency_id": "",
+            "route_id": "",
+            "route_type": 0,
+            "trip": null,
+            "stop_id": "BL"
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "OTHER_EFFECT",
+        "url": {
+          "translation": [
+            {
+              "text": "https://www.upexpress.com/SchedulesStations/ServiceStatus",
+              "language": "en"
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "text": "Elevators out of service",
+              "language": "en"
+            },
+            {
+              "text": "Ascenseurs hors service",
+              "language": "fr"
+            }
+          ]
+        },
+        "description_text": {
+          "translation": [
+            {
+              "text": "The elevator connecting the south tunnel to platform 1 is out of service. Customers can access platform 1 using a step-free path by street access from Randolph Avenue on the east side. The station is still accessible. Visit the Bloor GO Station page to find helpful information on departures, a station map and a listing of all the services we have available. For Accessibility support during elevator outages, contact us here for assistance.",
+              "language": "en"
+            },
+            {
+              "text": "L’ascenseur reliant le tunnel sud au quai 1 est hors service. Les clients peuvent accéder au quai 1 en utilisant un chemin sans pas d’accès par la rue depuis l’avenue Randolph du côté est. La gare est toujours accessible. Visitez la page de la gare GO de Bloor pour trouver des informations utiles sur les départs, un plan de la gare et une liste de tous les services que nous proposons. Pour le support accessibilité pendant les pannes d’ascenseur, contactez-nous ici pour de l’aide.",
+              "language": "fr"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "529159",
+      "is_deleted": false,
+      "trip_update": null,
+      "vehicle": null,
+      "alert": {
+        "active_period": [
+          {
+            "start": 1791478800,
+            "end": 1791850554
+          }
+        ],
+        "informed_entity": [
+          {
+            "agency_id": "UPExpress",
+            "route_id": "UP",
+            "route_type": 2,
+            "trip": null,
+            "stop_id": ""
+          }
+        ],
+        "cause": "UNKNOWN_CAUSE",
+        "effect": "REDUCED_SERVICE",
+        "url": {
+          "translation": [
+            {
+              "text": "https://www.upexpress.com/SchedulesStations/ServiceStatus",
+              "language": "en"
+            }
+          ]
+        },
+        "header_text": {
+          "translation": [
+            {
+              "text": "Oct. 31-Nov. 1: UP Express service adjustments",
+              "language": "en"
+            },
+            {
+              "text": "31 oct.-nov. 1 : ajustements du service UP Express",
+              "language": "fr"
+            }
+          ]
+        },
+        "description_text": {
+          "translation": [
+            {
+              "text": "Oct. 31-Nov. 1: Service adjustments On Saturday, Oct. 31 and Sunday, Nov. 1, planned construction is taking place on UP Express. There will be no UP Express train service. GO buses will run direct between Union Station Bus Terminal and Pearson Airport Terminal 1. There will be no UP Express service at Bloor, Mount Dennis or Weston stations. There are some late-night service adjustments on Friday, Oct. 30. On Monday, Nov. 2 and Tuesday, Nov. 3, train arrival and departure times will be adjusted up to one minute earlier than regularly schedule. Learn more about these and upcoming service adjustments on UP Express.",
+              "language": "en"
+            },
+            {
+              "text": "31 oct.-nov. 1 : Ajustements de service Le samedi 31 octobre et le dimanche 1er novembre, des travaux de construction sont prévus sur le service UP Express. Il n’y aura pas de service de train UP Express. Des autobus GO circuleront directement entre la Station d’autobus de la gare Union et le Terminal 1 de l’aéroport Pearson. Il n’y aura pas de service UP Express aux gares Bloor, Mount Dennis ou Weston. Il y aura quelques ajustements de service en fin de soirée le vendredi 30 octobre. Le lundi 2 novembre et le mardi 3 novembre, les horaires d’arrivée et de départ des trains seront ajustés jusqu’à une minute plus tôt que l’horaire régulier. En savoir plus sur ces ajustements de service et ceux à venir sur le service UP Express.",
+              "language": "fr"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

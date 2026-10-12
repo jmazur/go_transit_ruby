@@ -9,11 +9,25 @@ consistent. The API endpoints were re-created as close to the API spec wherever
 possible, but some exceptions do exist. Reference the Go Transit API
 documenation for details on available fields.
 
-This gem does not parse any of the GTFS feeds. For those I recommend using a
-gem dedicated to parsing GTFS Real Time feeds since it is a standardized data
-type.
+The GTFS Real Time endpoints that return JSON are supported (see below). This
+gem does not decode the protobuf format, and the API serves the JSON from the
+plain path (no file extension). For protobuf I recommend a gem dedicated to
+parsing GTFS Real Time feeds since it is a standardized data type.
 
 Supports Ruby 2.7.x - 4.0.x
+
+The only runtime dependency is [tzinfo](https://github.com/tzinfo/tzinfo), for
+the `America/Toronto` conversions. The gem does not need ActiveSupport.
+
+### Upgrading from 1.x
+Version 2.0.0 removed the ActiveSupport dependency. The one change you may
+notice: `_local` methods used to return an `ActiveSupport::TimeWithZone` and now
+return a `Time` with the Toronto offset (see Dates & Times). `_utc` methods still
+return a plain UTC `Time`. If your code called `.time_zone` on a `_local` value,
+use `.zone` or `.utc_offset` instead, or wrap it with your own
+`in_time_zone("America/Toronto")` if you have ActiveSupport. During the repeated
+hour when daylight saving ends the first (daylight) time is used, and a time that
+does not exist when it begins moves an hour on, as ActiveSupport did.
 
 ## API Keys
 You can get a Go Transit API key here
@@ -73,15 +87,52 @@ This gem exposes the Go Transit API endpoints and hydrates objects related to th
 | :------------------------------------------------------------------------------------------------------ | :------------------------------------------------------------- |
 | `GoTransit::Fare.get(from_stop_code: <string>, to_stop_code: <string>, operational_day: <nil\|string>)` | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Fares-FromStopCode-ToStopCode) or [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Fares-FromStopCode-ToStopCode-OperationalDay) |
 
+#### GTFS Feeds
+| Method                                    | Reference                                                                                  |
+| :---------------------------------------- | :----------------------------------------------------------------------------------------- |
+| `GoTransit::Gtfs::Feed.alerts`            | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Gtfs-Feed-Alerts)            |
+| `GoTransit::Gtfs::Feed.trip_updates`      | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Gtfs-Feed-TripUpdates)      |
+| `GoTransit::Gtfs::Feed.vehicle_position`  | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-Gtfs-Feed-VehiclePosition)  |
+
+#### UP GTFS Real Time
+| Method                                       | Reference                                                                                     |
+| :------------------------------------------- | :-------------------------------------------------------------------------------------------- |
+| `GoTransit::UP::Gtfs::Feed.alerts`           | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-UP-Gtfs-Feed-Alerts)           |
+| `GoTransit::UP::Gtfs::Feed.trip_updates`     | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-UP-Gtfs-Feed-TripUpdates)     |
+| `GoTransit::UP::Gtfs::Feed.vehicle_position` | [Link](https://api.openmetrolinx.com/OpenDataAPI/Help/Api/en/GET-api-V1-UP-Gtfs-Feed-VehiclePosition) |
+
+The objects are the GTFS Realtime messages, one class each, reused by every feed
+(GO, UP and any future one): `Gtfs::FeedHeader`, `Gtfs::FeedEntity`,
+`Gtfs::VehiclePosition`, `Gtfs::TripUpdate`, `Gtfs::Alert`, and the parts they share,
+`Gtfs::TripDescriptor`, `Gtfs::VehicleDescriptor`, `Gtfs::Position`,
+`Gtfs::StopTimeUpdate`, `Gtfs::StopTimeEvent` (an arrival or a departure),
+`Gtfs::TimeRange`, `Gtfs::EntitySelector` and `Gtfs::TranslatedString`.
+
+Each feed is enumerable over its entities (`feed.header` has the feed's own
+header). An entity holds one of `trip_update`, `vehicle` or `alert`, the others
+are `nil`. The JSON keys are exactly the ones the API returns, except that
+lists are pluralized like the other endpoints (`entity` is `entities`,
+`stop_time_update` is `stop_time_updates`, `translation` is `translations`).
+The vehicle feed includes buses as well as trains. At the time of writing
+`speed`, `bearing` and `odometer` in vehicle positions are always `0` and
+`occupancy_status` is always `EMPTY`.
+
 ## Dates & Times
 All dates & times returned from the GO Transit API are in the `America/Toronto`
 timezone, returned as plain, unconverted strings, exactly as the API sent
 them. Every date and time field has two additional methods: `_utc`
-converts it into a UTC `Time`, and `_local` returns it as a proper
-`ActiveSupport::TimeWithZone` in `America/Toronto`, without shifting the
-value itself. For example, `departure_time_utc` on a stop returns the
+converts it into a UTC `Time`, and `_local` returns the same instant as a
+`Time` in `America/Toronto` (a `TZInfo::TimeWithOffset`, so `zone` is `"EDT"` or
+`"EST"` and `utc_offset` is correct for that date), without shifting the value
+itself. For example, `departure_time_utc` on a stop returns the
 regular `departure_time` converted to UTC, and `departure_time_local`
 returns the same time zoned to Toronto instead.
+
+GTFS Real Time timestamps are Unix epoch integers, in UTC. Each one is kept as
+returned (for example `vehicle.timestamp`) and has `_utc` and `_local` methods
+(`vehicle.timestamp_utc`). The trip descriptor's `start_time` is a bare time,
+so it is resolved against the `start_date` in the same trip descriptor, the
+same way described below.
 
 ### Time-only fields (no date)
 

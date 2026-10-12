@@ -1,0 +1,89 @@
+{
+  "header": {
+    "gtfs_realtime_version": "2.0",
+    "incrementality": "FULL_DATASET",
+    "timestamp": 1791778545
+  },
+  "entity": [
+    {
+      "id": "20261011-4041",
+      "is_deleted": false,
+      "trip_update": {
+        "trip": {
+          "trip_id": "20261011-4041",
+          "route_id": "UP",
+          "direction_id": 1,
+          "start_time": "23:59:00",
+          "start_date": "20261011",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "3003",
+          "label": "UP - Pearson Airport",
+          "license_plate": ""
+        },
+        "stop_time_update": [
+          {
+            "stop_id": "WE",
+            "arrival": null,
+            "departure": {
+              "delay": 0,
+              "time": 1791778560,
+              "uncertainty": 0
+            },
+            "schedule_relationship": "SCHEDULED"
+          },
+          {
+            "stop_id": "PA",
+            "arrival": null,
+            "departure": {
+              "delay": 0,
+              "time": 1791779280,
+              "uncertainty": 0
+            },
+            "schedule_relationship": "SCHEDULED"
+          }
+        ],
+        "timestamp": 1791778541,
+        "delay": null
+      },
+      "vehicle": null,
+      "alert": null
+    },
+    {
+      "id": "20261011-4140",
+      "is_deleted": false,
+      "trip_update": {
+        "trip": {
+          "trip_id": "20261011-4140",
+          "route_id": "UP",
+          "direction_id": 0,
+          "start_time": "23:54:00",
+          "start_date": "20261011",
+          "schedule_relationship": "SCHEDULED"
+        },
+        "vehicle": {
+          "id": "3001",
+          "label": "UP - Union Station",
+          "license_plate": ""
+        },
+        "stop_time_update": [
+          {
+            "stop_id": "UN",
+            "arrival": null,
+            "departure": {
+              "delay": 144,
+              "time": 1791779064,
+              "uncertainty": 0
+            },
+            "schedule_relationship": "SCHEDULED"
+          }
+        ],
+        "timestamp": 1791778541,
+        "delay": null
+      },
+      "vehicle": null,
+      "alert": null
+    }
+  ]
+}
