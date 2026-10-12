@@ -15,19 +15,6 @@ plain path (no file extension).
 
 Supports Ruby 2.7.x - 4.0.x
 
-The only runtime dependency is [tzinfo](https://github.com/tzinfo/tzinfo), for
-the `America/Toronto` conversions. The gem does not need ActiveSupport.
-
-### Upgrading from 1.x
-Version 2.0.0 removed the ActiveSupport dependency. The one change you may
-notice: `_local` methods used to return an `ActiveSupport::TimeWithZone` and now
-return a `Time` with the Toronto offset (see Dates & Times). `_utc` methods still
-return a plain UTC `Time`. If your code called `.time_zone` on a `_local` value,
-use `.zone` or `.utc_offset` instead, or wrap it with your own
-`in_time_zone("America/Toronto")` if you have ActiveSupport. During the repeated
-hour when daylight saving ends the first (daylight) time is used, and a time that
-does not exist when it begins moves an hour on, as ActiveSupport did.
-
 ## API Keys
 You can get a Go Transit API key here
 [https://api.openmetrolinx.com/OpenDataAPI/Help/Registration/en](https://api.openmetrolinx.com/OpenDataAPI/Help/Registration/en).
@@ -196,3 +183,13 @@ GoTransit.configure do |config|
   config.custom_base_url = "https://example.com"
 end
 ```
+
+### Upgrading from 1.x
+Version 2.0.0 removed the ActiveSupport dependency. The one change you may
+notice: `_local` methods used to return an `ActiveSupport::TimeWithZone` and now
+return a `Time` with the Toronto offset (see Dates & Times). `_utc` methods still
+return a plain UTC `Time`. If your code called `.time_zone` on a `_local` value,
+use `.zone` or `.utc_offset` instead, or wrap it with your own
+`in_time_zone("America/Toronto")` if you have ActiveSupport. During the repeated
+hour when daylight saving ends the first (daylight) time is used, and a time that
+does not exist when it begins moves an hour on, as ActiveSupport did.
